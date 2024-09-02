@@ -157,7 +157,13 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           ];
 
           const initCt = () => ({
-            // true: "true"
+            // 'all': jsvals.j8({pass: {
+          propertieValues: { 'colors': jsvals.j8({pass: {
+          propertieValues: { "primaryColor": jsvals.j8({pass: {
+          propertieValues: "#147804"
+        }}) }
+        }}) }
+        }})
           });
           const initObj = initCt();
           // console.log(initObj);
