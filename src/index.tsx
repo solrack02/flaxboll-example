@@ -31,15 +31,15 @@
           pathScreen:"sc1",
 
           styles:[
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }}), 
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.colors.primaryColor"
         }})
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100%"
         }})] }})],
 
           screenElements:[
