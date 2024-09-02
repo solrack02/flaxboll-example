@@ -1,4 +1,8 @@
+
+
 {
+ 
+
   "sss_dirSystem": {
     "capsCodeInfo": {
       "1": {
@@ -46,8 +50,7 @@
       "capsUserID": "xxx1"
     }
   },
-
-  "sss_fileSystem": {
+   "sss_fileSystem": {
     "capsCodeInfo": {
       "1": {
         "capsLabel": { "pt-br": "fileSystem", "en": "fileSystem" },
@@ -95,7 +98,7 @@
       "capsUserID": "xxx1"
     }
   },
-
+ 
   "sss_project": {
     "capsCodeInfo": {
       "1": {
@@ -191,7 +194,7 @@
       "capsUserID": "xxx1"
     }
   },
-
+ 
   "sss_screen": {
     "capsCodeInfo": {
       "1": {
@@ -281,7 +284,7 @@
       "capsID": "sss_screen"
     }
   },
-
+ 
   "sss_text": {
     "capsCodeInfo": {
       "1": {
@@ -348,7 +351,7 @@
       "capsUserID": "xxx1"
     }
   },
-
+ 
   "sss_stringValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
@@ -395,7 +398,7 @@
       }
     }
   },
-
+ 
   "sss_joinfreeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
@@ -434,7 +437,7 @@
       }
     }
   },
-
+ 
   "sss_freeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
@@ -467,4 +470,4 @@
       }
     }
   }
-}
+ }
