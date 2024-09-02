@@ -28,6 +28,50 @@
         
 
         (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"sc2",
+
+          styles:[
+              {
+                backgroundColor: '#101',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100%',
+                width: '100%',
+              }
+              ],
+
+          screenElements:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [()=><></>],
+
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("sc1");
+        }
+        ],
+
+          args,
+        }}/>],
+
+          startFunctions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc1",
 
           styles:[
@@ -102,50 +146,6 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         (...args) => {
           // ---------- get Function from A_Project Scope
           return tools.goTo("sc2");
-        }
-        ],
-
-          args,
-        }}/>],
-
-          startFunctions:[()=>{}],
-
-          args,
-        }}/>, 
-
-        (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"sc2",
-
-          styles:[
-              {
-                backgroundColor: '#101',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }
-              ],
-
-          screenElements:[(...args:any) => <Elements.Pressable3 pass={{
-          elementProperties: [{}],
-
-          styles: [
-              {
-                backgroundColor: 'blue',
-                borderRadius: 20,
-                paddingVertical: 5,
-                paddingHorizontal: 20,
-                justifyContent: 'center',
-                alignItems: 'center',
-              }
-              ],
-
-          childrenItems: [()=><></>],
-
-          pressableFunctions: [
-        (...args) => {
-          // ---------- get Function from A_Project Scope
-          return tools.goTo("sc1");
         }
         ],
 
