@@ -26,6 +26,9 @@
           const screens = [
             
         
+        
+        () => <>{/*styles library*/}</>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc2",
