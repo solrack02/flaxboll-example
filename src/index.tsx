@@ -24,7 +24,7 @@
           let args: any = [];
 
           const screens = [
-            // 
+            
         
 
         (...args: any) => <Elements.Screen3 pass={{
@@ -36,8 +36,13 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [
+jsvals.j8({pass: {
           propertieValues: "yellow"
+        }}), jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
+        }})
         }})] }})],
 
           screenElements:[
@@ -157,7 +162,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           ];
 
           const initCt = () => ({
-            // 'all': jsvals.j8({pass: {
+            'all': jsvals.j8({pass: {
           propertieValues: { 'colors': jsvals.j8({pass: {
           propertieValues: { "primaryColor": jsvals.j8({pass: {
           propertieValues: "#147804"
@@ -169,7 +174,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           // console.log(initObj);
 
           const arrInitFuncs = [
-            // ()=>{}
+            ()=>{}
           ];
 
           export const useRoutes = create(() => ({ currRoute }));
