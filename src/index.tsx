@@ -34,16 +34,14 @@
           pathScreen:"sc2",
 
           styles:[
-stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.colors.primaryColor"
-        }})
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
-        }})] }})],
+              {
+                backgroundColor: '#101',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100%',
+                width: '100%',
+              }
+              ],
 
           screenElements:[(...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
