@@ -233,8 +233,16 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[
+        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "330px"
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
         }})] }})],
 
             variablePath:[ ],
