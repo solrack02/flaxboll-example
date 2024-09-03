@@ -128,8 +128,16 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
-      styles:[stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+      styles:[
+stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "190px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
