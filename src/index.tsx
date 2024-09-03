@@ -201,7 +201,31 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             expectedVal:[ ],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [()=><></>],
+
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("sc2");
+        }
+        ],
+
+          args,
+        }}/>],
 
             args,
           }}/>
