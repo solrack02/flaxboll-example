@@ -168,9 +168,36 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
           const initCt = () => ({
             'all': jsvals.j8({pass: {
-          propertieValues: { 'colors': jsvals.j8({pass: {
+          propertieValues: { 
+        'colors': jsvals.j8({pass: {
           propertieValues: { "primaryColor": jsvals.j8({pass: {
           propertieValues: "#147804"
+        }}) }
+        }}), 'sizes': jsvals.j8({pass: {
+          propertieValues: { 
+        'fixed': jsvals.j8({pass: {
+          propertieValues: { 
+        "30": jsvals.j8({pass: {
+          propertieValues: "30px"
+        }}), 
+        "10": jsvals.j8({pass: {
+          propertieValues: "10px"
+        }}), "20": jsvals.j8({pass: {
+          propertieValues: "20px"
+        }}) }
+        }}), 'percent': jsvals.j8({pass: {
+          propertieValues: { 
+        "10": jsvals.j8({pass: {
+          propertieValues: "10%"
+        }}), 
+        "20": jsvals.j8({pass: {
+          propertieValues: "20%"
+        }}), 
+        "50": jsvals.j8({pass: {
+          propertieValues: "50%"
+        }}), "100": jsvals.j8({pass: {
+          propertieValues: "100%"
+        }}) }
         }}) }
         }}) }
         }})
