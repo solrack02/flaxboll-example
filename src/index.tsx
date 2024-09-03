@@ -134,10 +134,13 @@ stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "190px"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
+        }})] }}), stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10"
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
