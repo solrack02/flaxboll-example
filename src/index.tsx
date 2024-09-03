@@ -117,7 +117,10 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "30px"
-        }})] }}), stls.justifyContent({ pass: { arrayValue: ['center'] }})],
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
+        }})] }})],
 
             variablePath:[ ],
 
