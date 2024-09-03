@@ -123,6 +123,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
             expectedVal:[ ],
 
             childrenItems:[
+        
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
@@ -140,6 +141,26 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
       URIvariablePath:[jsvals.j8({pass: {
           propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/longBar.png?alt=media&token=ad4b584a-4b57-440e-9f84-d57c6e794d02"
+        }})],
+
+      args,
+    }}/>, 
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[
+              {
+                height: "50px",
+                width: "80px",
+                backgroundColor: "#FDFDFD",
+                borderWidth: 2,
+                borderColor: "#EEE"
+              }
+              ],
+
+      URIvariablePath:[jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/banner_poupi.png?alt=media&token=ef1483ea-2f1f-497e-a827-950974556fac"
         }})],
 
       args,
