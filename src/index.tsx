@@ -177,13 +177,13 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: { 
         'fixed': jsvals.j8({pass: {
           propertieValues: { 
-        "30": jsvals.j8({pass: {
-          propertieValues: "30px"
-        }}), 
         "10": jsvals.j8({pass: {
           propertieValues: "10px"
-        }}), "20": jsvals.j8({pass: {
+        }}), 
+        "20": jsvals.j8({pass: {
           propertieValues: "20px"
+        }}), "30": jsvals.j8({pass: {
+          propertieValues: "30px"
         }}) }
         }}), 'percent': jsvals.j8({pass: {
           propertieValues: { 
