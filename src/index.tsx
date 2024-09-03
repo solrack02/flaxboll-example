@@ -277,7 +277,8 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             args,
           }}/>
-        , (...args:any) => <Elements.Pressable3 pass={{
+        , 
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -301,7 +302,54 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         ],
 
           args,
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[
+stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "190px"
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10"
+        }})] }})],
+
+      URIvariablePath:[jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/banner_poupi.png?alt=media&token=ef1483ea-2f1f-497e-a827-950974556fac"
+        }})],
+
+      args,
+    }}/>],
+
+            args,
+          }}/>
+        ],
 
           startFunctions:[()=>{}],
 
