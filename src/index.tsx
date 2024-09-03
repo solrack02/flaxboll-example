@@ -107,6 +107,53 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
             elementsProperties:[{}],
 
             styles:[
+        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "330px"
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[
+stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
+
+      URIvariablePath:[jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/longBar.png?alt=media&token=ad4b584a-4b57-440e-9f84-d57c6e794d02"
+        }})],
+
+      args,
+    }}/>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
 stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
@@ -203,8 +250,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             args,
           }}/>
-        , 
-        (...args:any) => <Elements.Pressable3 pass={{
+        , (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -228,53 +274,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         ],
 
           args,
-        }}/>, 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "330px"
-        }})] }}), 
-        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }}), stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "absolute"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[
-
-    (...args:any) => <Elements.ImageBox pass={{
-      elementsProperties:[{}],
-
-      styles:[
-stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }})],
-
-      URIvariablePath:[jsvals.j8({pass: {
-          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/longBar.png?alt=media&token=ad4b584a-4b57-440e-9f84-d57c6e794d02"
-        }})],
-
-      args,
-    }}/>],
-
-            args,
-          }}/>
-        ],
+        }}/>],
 
           startFunctions:[()=>{}],
 
