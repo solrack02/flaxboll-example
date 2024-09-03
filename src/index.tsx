@@ -46,8 +46,10 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
         }})] }})],
 
           screenElements:[(...args:any) => <Elements.Pressable3 pass={{
@@ -92,8 +94,10 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
         }})] }})],
 
           screenElements:[
@@ -106,8 +110,10 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "black"
         }})] }}), 
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100%"
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "30px"
