@@ -149,15 +149,9 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
-      styles:[
-              {
-                height: "50px",
-                width: "80px",
-                backgroundColor: "#FDFDFD",
-                borderWidth: 2,
-                borderColor: "#EEE"
-              }
-              ],
+      styles:[stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
+        }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
           propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/banner_poupi.png?alt=media&token=ef1483ea-2f1f-497e-a827-950974556fac"
