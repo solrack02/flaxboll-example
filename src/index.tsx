@@ -218,16 +218,16 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 10" {...props} > <Path {...props} d="M0 1.5A1.5 1.5 0 0 1 1.5 0h18a1.5 1.5 0 0 1 0 3h-18A1.5 1.5 0 0 1 0 1.5ZM0 8.5A1.5 1.5 0 0 1 1.5 7h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 0 8.5Z" /> </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10" {...props} > <Path {...props} d="M0 1.5A1.5 1.5 0 0 1 1.5 0h18a1.5 1.5 0 0 1 0 3h-18A1.5 1.5 0 0 1 0 1.5ZM0 8.5A1.5 1.5 0 0 1 1.5 7h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 0 8.5Z" /> </Svg>)
       },
 
       svgOriginal: `
         <svg></svg>
       `,
 
-      altura: "30px",
+      altura: "20px",
 
-      largura: "30px",
+      largura: "20px",
 
       preenchimento: [jsvals.j8({pass: {
           propertieValues: "#fff"
