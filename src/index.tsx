@@ -306,18 +306,15 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
             elementsProperties:[{}],
 
             styles:[
-stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "absolute"
-        }})] }}), 
-stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "10"
-        }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "140px"
+        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
         }})] }})],
 
             variablePath:[ ],
