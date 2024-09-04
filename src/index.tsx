@@ -205,6 +205,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           elementProperties: [{}],
 
           styles: [
+        
 stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.30"
@@ -213,6 +214,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.30"
         }})
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
