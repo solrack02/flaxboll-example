@@ -328,9 +328,6 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
       elementsProperties:[{}],
 
       styles:[
-stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "absolute"
-        }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "140px"
         }})] }}), 
@@ -338,9 +335,10 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
-        }})] }})],
+        }})] }}), stls.flex({ pass: { arrayValue: ['1'] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
           propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/img.png?alt=media&token=dcf1259d-826b-4bbf-b178-b0442841183f"
