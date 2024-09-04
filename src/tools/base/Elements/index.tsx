@@ -43,7 +43,7 @@ export { Text } from './Text';
 // export { newCallback } from './newCallback';
 // export { setTimeOut } from './setTimeOut';
 
-// export { ScrollBar } from './ScrollBar';
+export { ScrollBar } from './ScrollBar';
 
 // export { Tprops_propValueTextInput } from './Tprops_propValueTextInput';
 
