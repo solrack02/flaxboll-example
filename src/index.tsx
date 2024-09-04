@@ -125,7 +125,12 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+            styles:[
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.20"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.20"
         }})
@@ -167,7 +172,12 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+            styles:[
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.20"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.20"
         }})
@@ -392,7 +402,12 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+            styles:[
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.20"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.20"
         }})
