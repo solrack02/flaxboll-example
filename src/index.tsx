@@ -529,7 +529,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           children: [
             jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
-          propertieValues: "#0.item.name"
+          propertieValues: "#0.0.item.name"
         }}),
           args
         }})
