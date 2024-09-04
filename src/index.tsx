@@ -335,7 +335,7 @@ stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
-          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/banner_poupi.png?alt=media&token=ef1483ea-2f1f-497e-a827-950974556fac"
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/img.png?alt=media&token=dcf1259d-826b-4bbf-b178-b0442841183f"
         }})],
 
       args,
