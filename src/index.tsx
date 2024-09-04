@@ -470,7 +470,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
-            styles: [],
+            styles: [[]],
             arrProps: [(...args:any) => props.horizontal({ pass: {
           boolean: ['true']
         }})],
