@@ -8,7 +8,7 @@
 // export { Loader } from './Loader';
 export { Pressable3 } from './Pressable3';
 
-// export { FlatList2 } from './FlatList2';
+export { FlatList2 } from './FlatList2';
 
 export { DynView } from './DynView';
 // export { MapPlaces } from './MapPlaces';
