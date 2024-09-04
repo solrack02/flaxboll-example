@@ -475,8 +475,13 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
         }})] }})],
-            arrProps: [(...args:any) => props.horizontal({ pass: {
+            arrProps: [
+        (...args:any) => props.horizontal({ pass: {
           boolean: ['true']
+        }}), (...args:any) => props.showsHorizontalScrollIndicator({ pass: {
+          showsHorizontalScrollIndicator: [jsvals.j8({pass: {
+          propertieValues: "false"
+        }})]
         }})],
             arrItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
