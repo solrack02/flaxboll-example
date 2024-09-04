@@ -525,7 +525,8 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: { "primaryColor": jsvals.j8({pass: {
           propertieValues: "#147804"
         }}) }
-        }}), 'sizes': jsvals.j8({pass: {
+        }}), 
+        'sizes': jsvals.j8({pass: {
           propertieValues: { 
         'fixed': jsvals.j8({pass: {
           propertieValues: { 
@@ -551,6 +552,30 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
         }}) }
         }}) }
+        }}), 'categs': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Pets"
+        }}), "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/dog.png?alt=media&token=f5bf526c-5fb3-4092-869d-11ffcfb25d2f"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Limpeza"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Bebidas"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Alimentos"
+        }})}
+        }}) ]
         }}) }
         }})
           });
