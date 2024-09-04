@@ -218,20 +218,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg
-              xmlns="http://www.w3.org/2000/svg"
-              width={20}
-              height={14}
-              viewBox="0 0 20 14"
-              {...props}
-              >
-              <Path
-              fillRule="evenodd"
-              d="M7.707.293a1 1 0 0 1 0 1.414L3.414 6H19a1 1 0 1 1 0 2H3.414l4.293 4.293a1 1 0 1 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0Z"
-              clipRule="evenodd"
-              {...props}
-              />
-              </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={21} height={10} viewBox="0 0 21 10" {...props} > <Path {...props} d="M0 1.5A1.5 1.5 0 0 1 1.5 0h18a1.5 1.5 0 0 1 0 3h-18A1.5 1.5 0 0 1 0 1.5ZM0 8.5A1.5 1.5 0 0 1 1.5 7h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 0 8.5Z" /> </Svg>)
       },
 
       svgOriginal: `
@@ -242,7 +229,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
       largura: "30px",
 
-      preenchimento: ['transparent'],
+      preenchimento: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})],
 
       args,
     }}/>],
