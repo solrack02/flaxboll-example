@@ -485,12 +485,15 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
 
             styles:[
         stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "120px"
+          propertieValues: "90px"
         }})] }}), 
         stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "40px"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+        stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
+        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
         }})] }})],
 
             variablePath:[ ],
