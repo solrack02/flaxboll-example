@@ -478,34 +478,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             arrProps: [(...args:any) => props.horizontal({ pass: {
           boolean: ['true']
         }})],
-            arrItems: [
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "90px"
-        }})] }}), 
-        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
-        }})] }}), 
-        stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#fff"
-        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "10px"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        , (...args:any) => <Elements.FlatList2 pass={{
+            arrItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
           ],
