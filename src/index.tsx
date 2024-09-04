@@ -204,7 +204,16 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [[]],
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
 
           childrenItems: [()=><></>],
 
