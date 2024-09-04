@@ -510,7 +510,9 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             {}
           ],
 
-          pData: '',
+          pData: jsvals.j8({pass: {
+          propertieValues: "all.categs"
+        }}),
 
           itemElements: [
             
