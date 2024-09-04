@@ -480,7 +480,9 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
             arrItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            {}
+            (...args:any) => props.horizontal({ pass: {
+          boolean: ['true']
+        }})
           ],
 
           pData: jsvals.j8({pass: {
