@@ -479,6 +479,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           boolean: ['true']
         }})],
             arrItems: [
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -504,7 +505,27 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
 
             args,
           }}/>
-        ],
+        , (...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: '',
+
+          itemElements: [
+            
+              (...args) => {
+                return (
+                  <RN.Text>
+                    Adicione os campos que quer mostrar aqui.
+                  </RN.Text>
+                );
+              }
+              
+          ],
+
+          args,
+        }}/>],
             args,
         }}/>],
 
