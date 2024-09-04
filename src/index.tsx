@@ -230,34 +230,14 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             args,
           }}/>
         , 
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
-
-          arrStyles: [
-            stls.color({ pass: { arrayValue: ["white"] }})
-          ],
-
-          children: [
-            jsvals.j8({pass: {
-          propertieValues: "Poupi"
-        }})
-          ],
-
-          args,
-
-        }}/>, 
         
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
       styles:[
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100px"
+stls.height({ pass: { arrayValue: [10] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "70px"
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
