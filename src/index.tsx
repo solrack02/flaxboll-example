@@ -417,7 +417,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})
         }})] }}), 
 stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
+          propertieValues: "10px"
         }})] }}), stls.flex({ pass: { arrayValue: ['1'] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
