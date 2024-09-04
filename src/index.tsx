@@ -516,14 +516,32 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
 
           itemElements: [
             
-              (...args) => {
-                return (
-                  <RN.Text>
-                    Adicione os campos que quer mostrar aqui.
-                  </RN.Text>
-                );
-              }
-              
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "90px"
+        }})] }}), 
+        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
+        }})] }}), 
+        stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        
           ],
 
           args,
