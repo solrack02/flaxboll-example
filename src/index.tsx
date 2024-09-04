@@ -470,7 +470,11 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
-            styles: [[]],
+            styles: [stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
             arrProps: [(...args:any) => props.horizontal({ pass: {
           boolean: ['true']
         }})],
@@ -480,13 +484,14 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+        stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "120px"
+        }})] }}), 
+        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }})],
 
             variablePath:[ ],
 
