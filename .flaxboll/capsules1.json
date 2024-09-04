@@ -14814,8 +14814,6 @@
         "ccc_stlGroup-0": {
           "capsIptCodeID": "ccc_stlGroup-0",
           "capsIptCapsValue": [
-            "56ae573f-323c-43de-adfd-bbd23b1be504",
-            "50314b36-cbad-4b47-bc74-a4f3085371bd",
             "0a52bc19-c347-40be-aeba-c0164e1e3ff5",
             "231098c9-7c62-4824-991f-8d335ad2205a"
           ]
@@ -14975,6 +14973,7 @@
         "ccc_stlGroup-0": {
           "capsIptCodeID": "ccc_stlGroup-0",
           "capsIptCapsValue": [
+            "56ae573f-323c-43de-adfd-bbd23b1be504",
             "231098c9-7c62-4824-991f-8d335ad2205a",
             "0a52bc19-c347-40be-aeba-c0164e1e3ff5",
             "1ab4160a-4649-4075-a8bc-1ce422ff2489"
