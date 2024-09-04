@@ -327,8 +327,11 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10"
+        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "20px"
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
