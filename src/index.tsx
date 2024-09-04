@@ -193,8 +193,13 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
+        }})] }}), stls.paddingHorizontal({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.20"
+        }})
         }})] }})],
 
             variablePath:[ ],
