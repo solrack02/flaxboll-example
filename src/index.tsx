@@ -345,8 +345,16 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
             styles:[
 stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
-        }})] }}), stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10"
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "140px"
         }})] }})],
 
             variablePath:[ ],
