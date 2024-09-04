@@ -236,7 +236,11 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
       elementsProperties:[{}],
 
       styles:[
-stls.height({ pass: { arrayValue: [10] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "70px"
         }})] }})],
 
