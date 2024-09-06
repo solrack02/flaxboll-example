@@ -614,7 +614,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             args,
           }}/>
-        , (...args:any) => <Elements.ScrollBar pass={{
+        , 
+        (...args:any) => <Elements.ScrollBar pass={{
             styles: [],
             arrProps: [],
             arrItems: [(...args:any) => <Elements.FlatList2 pass={{
@@ -835,7 +836,25 @@ stls.shadows({ pass: {
           args,
         }}/>],
             args,
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
+        }})] }}), stls.bottom({ pass: { arrayValue: ['1px'] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           startFunctions:[()=>{}],
 
