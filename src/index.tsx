@@ -628,32 +628,6 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           itemElements: [
             
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.20"
-        }})
-        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.20"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        , 
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -679,10 +653,13 @@ stls.shadows({ pass: {
           shadowRadius: ['20px'],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
+        }})] }}), stls.marginHorizontal({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "15px"
         }})] }})],
 
             variablePath:[ ],
@@ -768,30 +745,6 @@ stls.shadows({ pass: {
             args,
           }}/>
         ],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.20"
-        }})
-        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.20"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
 
             args,
           }}/>
