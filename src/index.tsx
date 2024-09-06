@@ -858,8 +858,11 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
-        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
+        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "space-around"
         }})] }})],
 
             variablePath:[ ],
@@ -903,8 +906,11 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "80px"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
+        }})] }}), stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "-36px"
         }})] }})],
 
             variablePath:[ ],
