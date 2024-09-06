@@ -615,7 +615,34 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
             args,
           }}/>
         , 
-        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: jsvals.j8({pass: {
+          propertieValues: "all.prods"
+        }}),
+
+          itemElements: [
+            
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -733,43 +760,7 @@ stls.shadows({ pass: {
 
             args,
           }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
-          elementProperties: [
-            {}
-          ],
-
-          pData: jsvals.j8({pass: {
-          propertieValues: "all.prods"
-        }}),
-
-          itemElements: [
-            
-              (...args) => {
-                return (
-                  <RN.Text>
-                    Adicione os campos que quer mostrar aqui.
-                  </RN.Text>
-                );
-              }
-              
+        
           ],
 
           args,
