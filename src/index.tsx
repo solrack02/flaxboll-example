@@ -651,6 +651,7 @@ stls.shadows({ pass: {
             expectedVal:[ ],
 
             childrenItems:[
+        
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
@@ -668,7 +669,60 @@ stls.shadows({ pass: {
       URIvariablePath:["https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
 
       args,
-    }}/>],
+    }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
