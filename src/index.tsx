@@ -724,8 +724,14 @@ stls.shadows({ pass: {
           ],
 
           children: [
-            jsvals.j8({pass: {
-          propertieValues: "R$26,79"
+            
+        jsvals.j8({pass: {
+          propertieValues: "R$"
+        }}), jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.price"
+        }}),
+          args
         }})
           ],
 
