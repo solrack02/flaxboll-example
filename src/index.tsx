@@ -704,8 +704,11 @@ stls.shadows({ pass: {
           ],
 
           children: [
-            jsvals.j8({pass: {
-          propertieValues: "Torta Holandesa MISS DAISY 470g"
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.name"
+        }}),
+          args
         }})
           ],
 
