@@ -518,9 +518,15 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
-        }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
-        }})] }})],
+        }})] }}), stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: ['{width: 0, height: 0}'],
+          shadowOpacity: ['0.4px'],
+          shadowRadius: ['20px'],
+        }})],
 
             variablePath:[ ],
 
