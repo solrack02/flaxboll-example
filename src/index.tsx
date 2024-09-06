@@ -509,8 +509,23 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
         stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
-        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+        stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10px"
+        }})] }}), 
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "90px"
         }})] }})],
 
             variablePath:[ ],
