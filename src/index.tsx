@@ -692,7 +692,7 @@ stls.shadows({ pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[[]],
+            styles:[stls.flex({ pass: { arrayValue: ['1'] }})],
 
             variablePath:[ ],
 
