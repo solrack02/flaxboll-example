@@ -863,7 +863,80 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             expectedVal:[ ],
 
+            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
             childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80px"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80px"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
