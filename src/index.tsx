@@ -766,7 +766,9 @@ stls.shadows({ pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
           ],
 
           children: [
@@ -784,7 +786,9 @@ stls.shadows({ pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
           ],
 
           children: [
@@ -804,7 +808,9 @@ stls.shadows({ pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
           ],
 
           children: [
