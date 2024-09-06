@@ -916,11 +916,12 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
             elementsProperties:[{}],
 
             styles:[
+        
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "80px"
+          propertieValues: "70px"
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "80px"
+          propertieValues: "70px"
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
@@ -941,7 +942,10 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           shadowRadius: [jsvals.j8({pass: {
           propertieValues: "6px"
         }})],
-        }})],
+        }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
 
             variablePath:[ ],
 
