@@ -653,9 +653,10 @@ stls.shadows({ pass: {
           shadowRadius: ['20px'],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
-        }})] }}), stls.marginHorizontal({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+        stls.marginHorizontal({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "15px"
-        }})] }})],
+        }})] }}), stls.padding({ pass: { arrayValue: ['10px'] }})],
 
             variablePath:[ ],
 
