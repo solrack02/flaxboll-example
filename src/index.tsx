@@ -455,6 +455,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -523,20 +524,12 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[
+        
 stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10px"
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
-        }})] }}), 
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "90px"
         }})] }}), 
 stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
@@ -551,6 +544,11 @@ stls.shadows({ pass: {
           shadowRadius: ['20px'],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
+        }})] }}), 
+        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "90px"
         }})] }})],
 
             variablePath:[ ],
@@ -613,6 +611,64 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}/>],
             args,
         }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), 
+stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
+        }})] }}), 
+stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: ['{width: 0, height: 0}'],
+          shadowOpacity: ['0.4px'],
+          shadowRadius: ['20px'],
+        }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "5px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[
+              {
+                height: "50px",
+                width: "80px",
+                backgroundColor: "#FDFDFD",
+                borderWidth: 2,
+                borderColor: "#EEE"
+              }
+              ],
+
+      URIvariablePath:["https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+
+      args,
+    }}/>],
 
             args,
           }}/>
