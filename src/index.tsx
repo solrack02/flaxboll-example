@@ -716,7 +716,7 @@ stls.shadows({ pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "R!#!6,79"
+          propertieValues: "R$26,79"
         }})
           ],
 
