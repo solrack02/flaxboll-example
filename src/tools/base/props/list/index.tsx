@@ -1,7 +1,7 @@
 
 import { mapElements } from '../../project';
 
-// ItemSeparatorComponent
+ItemSeparatorComponent
 type Tprops_ItemSeparatorComponent = {
   pass: { component: any[] };
 };
