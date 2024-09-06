@@ -545,7 +545,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
       URIvariablePath:[jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
-          propertieValues: "#0.item.image"
+          propertieValues: "#0.0.item.image"
         }}),
           args
         }})],
