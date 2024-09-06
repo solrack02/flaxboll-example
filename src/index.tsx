@@ -790,7 +790,7 @@ stls.shadows({ pass: {
           children: [
             jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
-          propertieValues: "#0.0.0.0.item.amount"
+          propertieValues: "#0.0.0.item.amount"
         }}),
           args
         }})
