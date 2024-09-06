@@ -87,6 +87,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           pathScreen:"sc1",
 
           styles:[
+        
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
         }})] }}), 
@@ -98,6 +99,8 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#F3F3F3"
         }})] }})],
 
           screenElements:[
