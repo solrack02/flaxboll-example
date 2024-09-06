@@ -615,6 +615,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -732,6 +733,50 @@ stls.shadows({ pass: {
 
             args,
           }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: jsvals.j8({pass: {
+          propertieValues: "all.prods"
+        }}),
+
+          itemElements: [
+            
+              (...args) => {
+                return (
+                  <RN.Text>
+                    Adicione os campos que quer mostrar aqui.
+                  </RN.Text>
+                );
+              }
+              
+          ],
+
+          args,
+        }}/>],
+
+            args,
+          }}/>
         ],
 
           startFunctions:[()=>{}],
@@ -774,7 +819,8 @@ stls.shadows({ pass: {
           propertieValues: "100%"
         }}) }
         }}) }
-        }}), 'categs': jsvals.j8({pass: {
+        }}), 
+        'categs': jsvals.j8({pass: {
           propertieValues: [ 
         jsvals.j8({pass: {
           propertieValues: {
@@ -802,6 +848,49 @@ stls.shadows({ pass: {
         }}), jsvals.j8({pass: {
           propertieValues: {"name": jsvals.j8({pass: {
           propertieValues: "Alimentos"
+        }})}
+        }}) ]
+        }}), 'prods': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Torta Holandesa MISS DAISY 470g"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/torta.png?alt=media&token=4daa4ce3-ca7d-45ec-a8b4-f4162e648368"
+        }}), 
+        "price": jsvals.j8({pass: {
+          propertieValues: "26,79"
+        }}), "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Reuqijão Vigor"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/requeijao.png?alt=media&token=a15c2035-3ef5-4f14-a7c8-7d58dd7b1fc0"
+        }}), 
+        "price": jsvals.j8({pass: {
+          propertieValues: "6,59"
+        }}), "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Presunto Sadia 200g"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/presunto.png?alt=media&token=bc236340-c063-41c6-a98c-af1707cfe482"
+        }}), 
+        "price": jsvals.j8({pass: {
+          propertieValues: "9,60"
+        }}), "amount": jsvals.j8({pass: {
+          propertieValues: "0"
         }})}
         }}) ]
         }}) }
