@@ -669,13 +669,19 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})}
         }}), 
         jsvals.j8({pass: {
-          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
           propertieValues: "Limpeza"
+        }}), "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/cleaning.png?alt=media&token=70c342c4-1e04-4dd8-ab71-2ef9227d777a"
         }})}
         }}), 
         jsvals.j8({pass: {
-          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
           propertieValues: "Bebidas"
+        }}), "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/drink.png?alt=media&token=99dc2e9d-fecf-4cc4-9c84-a6fd9a6d1985"
         }})}
         }}), jsvals.j8({pass: {
           propertieValues: {"name": jsvals.j8({pass: {
