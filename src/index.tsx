@@ -921,7 +921,7 @@ stls.shadows({ pass: {
         jsvals.j8({pass: {
           propertieValues: {
         "name": jsvals.j8({pass: {
-          propertieValues: "Reuqijão Vigor"
+          propertieValues: "Requeijão Vigor"
         }}), 
         "image": jsvals.j8({pass: {
           propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/requeijao.png?alt=media&token=a15c2035-3ef5-4f14-a7c8-7d58dd7b1fc0"
@@ -931,7 +931,8 @@ stls.shadows({ pass: {
         }}), "amount": jsvals.j8({pass: {
           propertieValues: "0"
         }})}
-        }}), jsvals.j8({pass: {
+        }}), 
+        jsvals.j8({pass: {
           propertieValues: {
         "name": jsvals.j8({pass: {
           propertieValues: "Presunto Sadia 200g"
@@ -943,6 +944,19 @@ stls.shadows({ pass: {
           propertieValues: "9,60"
         }}), "amount": jsvals.j8({pass: {
           propertieValues: "0"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Sorvete Kibon 800ml Ovomaltine"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/sorvete.png?alt=media&token=e3e69eb6-b7c6-4ee8-8c72-294417307398"
+        }}), 
+        "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }}), "price": jsvals.j8({pass: {
+          propertieValues: "19,90"
         }})}
         }}) ]
         }}) }
