@@ -861,9 +861,15 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
-        }})] }}), stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "space-around"
-        }})] }})],
+        }})] }}), stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: ['{width: 0, height: 0}'],
+          shadowOpacity: ['0.4px'],
+          shadowRadius: ['20px'],
+        }})],
 
             variablePath:[ ],
 
@@ -909,9 +915,18 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
-        }})] }}), stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "-36px"
-        }})] }})],
+        }})] }}), 
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "50%"
+        }})] }}), stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: ['{width: 0, height: 0}'],
+          shadowOpacity: ['0.4px'],
+          shadowRadius: ['20px'],
+        }})],
 
             variablePath:[ ],
 
