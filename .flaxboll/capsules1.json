@@ -16664,14 +16664,6 @@
     "capsUseCodeInfo": {
       "parents": {
         "conn_1": {
-          "connID": "conn_1",
-          "capsParentIptID": "ccc_dynView-4",
-          "parentData": {
-            "parentConnID": "conn_1",
-            "capsParentID": "ff7b6e41-6758-4e81-822c-efde674e714d"
-          }
-        },
-        "conn_2": {
           "connID": "conn_2",
           "capsParentIptID": "ccc_scrollBar-2",
           "parentData": {
