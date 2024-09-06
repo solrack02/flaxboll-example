@@ -679,7 +679,7 @@ stls.shadows({ pass: {
 
       URIvariablePath:[jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
-          propertieValues: "#0.0.0.item.image"
+          propertieValues: "#0.0.item.image"
         }}),
           args
         }})],
