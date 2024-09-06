@@ -698,7 +698,9 @@ stls.shadows({ pass: {
           ],
 
           children: [
-            "Escreva..."
+            jsvals.j8({pass: {
+          propertieValues: "Torta Holandesa MISS DAISY 470g"
+        }})
           ],
 
           args,
@@ -709,11 +711,13 @@ stls.shadows({ pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.fontWeight({ pass: { arrayValue: ['regular'] }})
           ],
 
           children: [
-            "Escreva..."
+            jsvals.j8({pass: {
+          propertieValues: "R!#!6,79"
+        }})
           ],
 
           args,
