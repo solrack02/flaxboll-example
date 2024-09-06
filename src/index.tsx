@@ -867,7 +867,7 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: [jsvals.j8({pass: {
-          propertieValues: "{width: 0,height: -4px}"
+          propertieValues: "{width: 0, height: -4}"
         }})],
           shadowOpacity: [jsvals.j8({pass: {
           propertieValues: "0.1"
@@ -930,7 +930,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: [jsvals.j8({pass: {
-          propertieValues: "{width: 0,height: -4px}"
+          propertieValues: "{width: 0, height: -4}"
         }})],
           shadowOpacity: [jsvals.j8({pass: {
           propertieValues: "0.1"
