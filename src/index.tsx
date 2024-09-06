@@ -720,7 +720,9 @@ stls.shadows({ pass: {
           ],
 
           arrStyles: [
-            stls.fontWeight({ pass: { arrayValue: ['regular'] }})
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
           ],
 
           children: [
