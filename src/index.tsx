@@ -485,8 +485,32 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
             arrItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            (...args:any) => props.horizontal({ pass: {
+            
+        (...args:any) => props.horizontal({ pass: {
           boolean: ['true']
+        }}), (...args:any) => props.ItemSeparatorComponent({ pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
         }})
           ],
 
@@ -521,12 +545,15 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
-        }})] }}), stls.shadows({ pass: {
+        }})] }}), 
+stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: ['{width: 0, height: 0}'],
           shadowOpacity: ['0.4px'],
           shadowRadius: ['20px'],
-        }})],
+        }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "5px"
+        }})] }})],
 
             variablePath:[ ],
 
