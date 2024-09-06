@@ -687,6 +687,7 @@ stls.shadows({ pass: {
 
       args,
     }}/>, 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -738,6 +739,84 @@ stls.shadows({ pass: {
           propertieValues: "#0.0.0.item.price"
         }}),
           args
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "+"
+        }})
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.0.0.item.amount"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "-"
         }})
           ],
 
