@@ -495,10 +495,8 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             elementsProperties:[{}],
 
             styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.10"
-        }})
         }})
         }})] }})],
 
