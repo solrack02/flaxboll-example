@@ -677,8 +677,11 @@ stls.shadows({ pass: {
               }
               ],
 
-      URIvariablePath:[jsvals.j8({pass: {
-          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/torta.png?alt=media&token=4daa4ce3-ca7d-45ec-a8b4-f4162e648368"
+      URIvariablePath:[jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.image"
+        }}),
+          args
         }})],
 
       args,
