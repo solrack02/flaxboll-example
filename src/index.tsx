@@ -542,9 +542,10 @@ stls.shadows({ pass: {
           shadowOffset: ['{width: 0, height: 0}'],
           shadowOpacity: ['0.4px'],
           shadowRadius: ['20px'],
-        }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
+        }}), 
+stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
-        }})] }}), 
+        }})] }}), stls.flex({ pass: { arrayValue: ['1'] }}), 
         stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "40px"
         }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
@@ -651,9 +652,10 @@ stls.shadows({ pass: {
           shadowOffset: ['{width: 0, height: 0}'],
           shadowOpacity: ['0.4px'],
           shadowRadius: ['20px'],
-        }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
+        }}), 
+stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
-        }})] }}), 
+        }})] }}), stls.flex({ pass: { arrayValue: ['1'] }}), 
         stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
