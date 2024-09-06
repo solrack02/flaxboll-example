@@ -844,7 +844,20 @@ stls.shadows({ pass: {
             styles:[
 stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
-        }})] }}), stls.bottom({ pass: { arrayValue: ['1px'] }})],
+        }})] }}), 
+stls.bottom({ pass: { arrayValue: ['1px'] }}), 
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }})],
 
             variablePath:[ ],
 
