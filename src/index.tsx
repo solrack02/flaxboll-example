@@ -683,7 +683,6 @@ stls.shadows({ pass: {
 
       args,
     }}/>, 
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -737,28 +736,6 @@ stls.shadows({ pass: {
           args,
 
         }}/>],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
 
             args,
           }}/>
