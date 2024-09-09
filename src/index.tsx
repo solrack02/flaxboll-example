@@ -1079,9 +1079,14 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}), "image": jsvals.j8({pass: {
           propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/drink.png?alt=media&token=99dc2e9d-fecf-4cc4-9c84-a6fd9a6d1985"
         }})}
-        }}), jsvals.j8({pass: {
+        }}), 
+        jsvals.j8({pass: {
           propertieValues: {"name": jsvals.j8({pass: {
           propertieValues: "Alimentos"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Hortifruti"
         }})}
         }}) ]
         }}), 'prods': jsvals.j8({pass: {
