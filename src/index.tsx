@@ -1085,8 +1085,11 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: "Alimentos"
         }})}
         }}), jsvals.j8({pass: {
-          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
           propertieValues: "Hortifruti"
+        }}), "image": jsvals.j8({pass: {
+          propertieValues: "https://th.bing.com/th/id/OIP.V0veQoHgEoXnjRVZJ37fDAHaEK?rs=1&pid=ImgDetMain"
         }})}
         }}) ]
         }}), 'prods': jsvals.j8({pass: {
