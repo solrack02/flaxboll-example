@@ -989,9 +989,9 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         <svg></svg>
       `,
 
-      altura: "30px",
+      altura: "25px",
 
-      largura: "30px",
+      largura: "25px",
 
       preenchimento: [jsvals.j8({pass: {
           propertieValues: "#fff"
