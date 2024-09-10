@@ -888,7 +888,16 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
         (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [[]],
+          styles: [
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }})],
 
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
@@ -1012,7 +1021,16 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         , (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [[]],
+          styles: [
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }})],
 
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
@@ -1024,9 +1042,9 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         <svg></svg>
       `,
 
-      altura: "30px",
+      altura: "16px",
 
-      largura: "30px",
+      largura: "16px",
 
       preenchimento: ['transparent'],
 
