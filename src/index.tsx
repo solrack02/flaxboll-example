@@ -905,7 +905,34 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [[]],
+
+          childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
+      componentSvg: (Svg:any, SvgObj:any) => {
+        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={20} height={22} fill="red" viewBox="0 0 20 22" {...props} > <Path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21V11h6v10M1 8l9-7 9 7v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Z" /> </Svg>)
+      },
+
+      svgOriginal: `
+        <svg></svg>
+      `,
+
+      altura: "30px",
+
+      largura: "30px",
+
+      preenchimento: ['transparent'],
+
+      args,
+    }}/>],
+
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>],
 
             args,
           }}/>
@@ -1026,7 +1053,34 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[() =><></>],
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [[]],
+
+          childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
+      componentSvg: (Svg:any, SvgObj:any) => {
+        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={20} height={22} fill="red" viewBox="0 0 20 22" {...props} > <Path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21V11h6v10M1 8l9-7 9 7v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Z" /> </Svg>)
+      },
+
+      svgOriginal: `
+        <svg></svg>
+      `,
+
+      altura: "30px",
+
+      largura: "30px",
+
+      preenchimento: ['transparent'],
+
+      args,
+    }}/>],
+
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>],
 
             args,
           }}/>
