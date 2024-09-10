@@ -885,27 +885,7 @@ stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
-        }})
-        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [[]],
@@ -932,11 +912,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
-        }}/>],
-
-            args,
-          }}/>
-        , 
+        }}/>, 
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -1033,27 +1009,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             args,
           }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
-        }})
-        }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+        , (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [[]],
@@ -1061,16 +1017,16 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={20} height={22} fill="red" viewBox="0 0 20 22" {...props} > <Path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21V11h6v10M1 8l9-7 9 7v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Z" /> </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="red" viewBox="0 0 22 22" {...props} > <Path fill="#000" d="M9.688 0C4.346 0 0 4.346 0 9.688c0 5.343 4.346 9.689 9.688 9.689 5.343 0 9.689-4.346 9.689-9.689C19.377 4.346 15.03 0 9.688 0Zm0 17.588c-4.356 0-7.9-3.544-7.9-7.9 0-4.355 3.544-7.9 7.9-7.9s7.9 3.544 7.9 7.9-3.544 7.9-7.9 7.9Z" /> <Path fill="#000" d="m21.738 20.473-5.127-5.127a.894.894 0 1 0-1.265 1.265l5.127 5.127a.891.891 0 0 0 1.265 0 .894.894 0 0 0 0-1.265Z" /> </Svg>)
       },
 
       svgOriginal: `
         <svg></svg>
       `,
 
-      altura: "16px",
+      altura: "30px",
 
-      largura: "16px",
+      largura: "30px",
 
       preenchimento: ['transparent'],
 
@@ -1081,10 +1037,6 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
         }}/>],
-
-            args,
-          }}/>
-        ],
 
             args,
           }}/>
