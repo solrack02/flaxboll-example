@@ -920,9 +920,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         <svg></svg>
       `,
 
-      altura: "30px",
+      altura: "16px",
 
-      largura: "30px",
+      largura: "16px",
 
       preenchimento: ['transparent'],
 
@@ -1068,9 +1068,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         <svg></svg>
       `,
 
-      altura: "30px",
+      altura: "16px",
 
-      largura: "30px",
+      largura: "16px",
 
       preenchimento: ['transparent'],
 
