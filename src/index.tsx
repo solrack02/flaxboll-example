@@ -617,16 +617,8 @@ stls.shadows({ pass: {
 
           pressableFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
-          keyPath: [jsvals.j3({pass: {
-          arrayStrings: [
-        jsvals.j8({pass: {
-          propertieValues: "all."
-        }}), jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
+          keyPath: [jsvals.j8({pass: {
           propertieValues: "all.currCateg"
-        }})
-        }})],
-          joinSeparator: ""
         }})],
           value: jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
