@@ -49,3 +49,4 @@ export { ScrollBar } from './ScrollBar';
 
 // export { AutocompleteGooglePlaces } from './AutocompleteGooglePlaces';
 
+export { Watcher } from './Watcher';
