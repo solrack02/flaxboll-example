@@ -698,7 +698,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}),
 
           itemElements: [
-            (...args:any) => <Elements.Text pass={{
+            
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -716,7 +717,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           children: [
             jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
-          propertieValues: "#0.item.name"
+          propertieValues: "#0.0.item.name"
         }}),
           args
         }})
@@ -724,7 +725,54 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
           args,
 
-        }}/>
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "60px"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "60px"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.item.name"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        
           ],
 
           args,
