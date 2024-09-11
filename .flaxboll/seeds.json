@@ -20432,7 +20432,7 @@
 
         "capsCodeTypes": ["Elemento de Tela", "Watcher"],
 
-        "capsCodeText": "(...args:any) => <customs.Watcher pass={{variable: [!#!Variable!#!],childrenItems: [!#!Children Items!#!],arrFuncs: [!#!Start Functions!#!],args,}}/>",
+        "capsCodeText": "(...args:any) => <Elements.Watcher pass={{variable: [!#!Variable!#!],childrenItems: [!#!Children Items!#!],arrFuncs: [!#!Start Functions!#!],args,}}/>",
 
         "capsCodeInputs": {
           "ccc_watcher-0": {
