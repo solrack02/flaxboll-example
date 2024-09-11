@@ -561,6 +561,26 @@ stls.shadows({ pass: {
             childrenItems:[
         
 
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
@@ -583,8 +603,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})],
 
       args,
-    }}/>, 
-        (...args:any) => <Elements.Text pass={{
+    }}/>, (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -604,26 +623,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
 
-        }}/>, 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.10"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        ],
+        }}/>],
 
             args,
           }}/>
