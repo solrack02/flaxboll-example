@@ -1,5 +1,5 @@
 
-export { firebase } from './firebase';
+// export { firebase } from './firebase';
 
 export { funcGroup } from './funcGroup';
 
@@ -9,4 +9,3 @@ export { condition } from './condition';
 export { setEditFields } from './setEditFields';
 
 export { loginGoogle } from './loginGoogle';
-
