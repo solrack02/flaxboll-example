@@ -638,15 +638,33 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}),
 
           itemElements: [
+            (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
             
-              (...args) => {
-                return (
-                  <RN.Text>
-                    Adicione os campos que quer mostrar aqui.
-                  </RN.Text>
-                );
-              }
-              
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "60px"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.item.name"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>
           ],
 
           args,
