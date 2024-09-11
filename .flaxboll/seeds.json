@@ -4921,7 +4921,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": " ",
-              "capsIptCapsTypesToAdd": ["string value", "join strings value"]
+              "capsIptCapsTypesToAdd": ["string value", "join strings value", "var reader", "arg reader"]
             }
           },
           "ccc_joinStringsValue-1": {
