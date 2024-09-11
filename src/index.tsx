@@ -521,12 +521,10 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
         }}),
 
           itemElements: [
-            
+            (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
 
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
+          styles: [
         
 stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "10px"
@@ -554,11 +552,7 @@ stls.shadows({ pass: {
           propertieValues: "50px"
         }})] }})],
 
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[
+          childrenItems: [
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -621,9 +615,29 @@ stls.shadows({ pass: {
 
         }}/>],
 
-            args,
-          }}/>
-        
+          pressableFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j3({pass: {
+          arrayStrings: [
+        jsvals.j8({pass: {
+          propertieValues: "all."
+        }}), jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.currCateg"
+        }})
+        }})],
+          joinSeparator: ""
+        }})],
+          value: jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.item.name"
+        }}),
+          args
+        }})
+        }})],
+
+          args,
+        }}/>
           ],
 
           args,
