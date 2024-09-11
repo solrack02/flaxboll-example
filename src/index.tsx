@@ -620,8 +620,68 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         , 
         (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            (...args:any) => props.horizontal({ pass: {
+            
+        (...args:any) => props.horizontal({ pass: {
           boolean: ['true']
+        }}), (...args:any) => props.ItemSeparatorComponent({ pass: {
+          component: [
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "•"
+        }})
+          ],
+
+          args,
+
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
         }})
           ],
 
@@ -1258,7 +1318,9 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         'Pets': jsvals.j8({pass: {
           propertieValues: [ 
         jsvals.j8({pass: {
-          propertieValues: { }
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Rações"
+        }})}
         }}), 
         jsvals.j8({pass: {
           propertieValues: { }
