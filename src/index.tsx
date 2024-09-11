@@ -624,8 +624,13 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           ],
 
           pData: jsvals.j3({pass: {
-          arrayStrings: [jsvals.j8({pass: {
+          arrayStrings: [
+        jsvals.j8({pass: {
           propertieValues: "all."
+        }}), jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.currCateg"
+        }})
         }})],
           joinSeparator: ""
         }}),
@@ -1226,8 +1231,19 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           propertieValues: "19,90"
         }})}
         }}) ]
-        }}), "currCateg": jsvals.j8({pass: {
+        }}), 
+        "currCateg": jsvals.j8({pass: {
           propertieValues: "Pets"
+        }}), 'Pets': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: { }
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: { }
+        }}), jsvals.j8({pass: {
+          propertieValues: { }
+        }}) ]
         }}) }
         }})
           });
