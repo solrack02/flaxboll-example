@@ -473,21 +473,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
-            styles: [stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }})],
-            arrProps: [
-        (...args:any) => props.horizontal({ pass: {
-          boolean: ['true']
-        }}), (...args:any) => props.showsHorizontalScrollIndicator({ pass: {
-          showsHorizontalScrollIndicator: [jsvals.j8({pass: {
-          propertieValues: "false"
-        }})]
-        }})],
-            arrItems: [(...args:any) => <Elements.FlatList2 pass={{
+            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             
         (...args:any) => props.horizontal({ pass: {
@@ -612,8 +598,6 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
         }}/>],
-            args,
-        }}/>],
 
             args,
           }}/>
@@ -625,46 +609,6 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           boolean: ['true']
         }}), (...args:any) => props.ItemSeparatorComponent({ pass: {
           component: [
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.10"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        , 
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.10"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        , 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -1035,7 +979,9 @@ stls.shadows({ pass: {
 stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
         }})] }}), 
-stls.bottom({ pass: { arrayValue: ['1px'] }}), 
+stls.bottom({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "0"
+        }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
