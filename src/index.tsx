@@ -111,7 +111,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             styles:[
         stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "250px"
+          propertieValues: "220px"
         }})] }}), 
         stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
