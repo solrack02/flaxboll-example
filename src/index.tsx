@@ -585,13 +585,13 @@ stls.shadows({ pass: {
       elementsProperties:[{}],
 
       styles:[
-stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+    stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
+          propertieValues: "all.sizes.fixed.20"
         }})
         }})] }}), stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
+          propertieValues: "all.sizes.fixed.20"
         }})
         }})] }})],
 
