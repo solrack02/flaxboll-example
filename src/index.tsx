@@ -721,13 +721,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           ],
 
           arrStyles: [
-            
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "60px"
-        }})] }}), 
-stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
-        }})] }})
+            { color: 'black', fontSize: 12, }
           ],
 
           children: [
