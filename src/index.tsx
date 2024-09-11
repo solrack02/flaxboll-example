@@ -620,7 +620,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         , 
         (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            {}
+            (...args:any) => props.horizontal({ pass: {
+          boolean: ['true']
+        }})
           ],
 
           pData: jsvals.j3({pass: {
@@ -1234,7 +1236,8 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         }}), 
         "currCateg": jsvals.j8({pass: {
           propertieValues: "Pets"
-        }}), 'Pets': jsvals.j8({pass: {
+        }}), 
+        'Pets': jsvals.j8({pass: {
           propertieValues: [ 
         jsvals.j8({pass: {
           propertieValues: { }
@@ -1242,6 +1245,10 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         jsvals.j8({pass: {
           propertieValues: { }
         }}), jsvals.j8({pass: {
+          propertieValues: { }
+        }}) ]
+        }}), 'Limpeza': jsvals.j8({pass: {
+          propertieValues: [ jsvals.j8({pass: {
           propertieValues: { }
         }}) ]
         }}) }
