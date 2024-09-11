@@ -705,7 +705,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "60px"
+          propertieValues: "30px"
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
