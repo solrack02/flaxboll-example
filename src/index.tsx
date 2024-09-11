@@ -473,7 +473,21 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
+            childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
+            styles: [stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
+            arrProps: [
+        (...args:any) => props.horizontal({ pass: {
+          boolean: ['true']
+        }}), (...args:any) => props.showsHorizontalScrollIndicator({ pass: {
+          showsHorizontalScrollIndicator: [jsvals.j8({pass: {
+          propertieValues: "false"
+        }})]
+        }})],
+            arrItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             
         (...args:any) => props.horizontal({ pass: {
@@ -534,10 +548,10 @@ stls.shadows({ pass: {
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
         }})] }}), 
-        stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "90px"
+        stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "150px"
+        }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "50px"
         }})] }})],
 
             variablePath:[ ],
@@ -597,6 +611,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           ],
 
           args,
+        }}/>],
+            args,
         }}/>],
 
             args,
