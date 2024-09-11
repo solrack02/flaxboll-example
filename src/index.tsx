@@ -549,7 +549,7 @@ stls.shadows({ pass: {
           propertieValues: "5px"
         }})] }}), 
         stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "150px"
+          propertieValues: "110px"
         }})] }}), stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "50px"
         }})] }})],
@@ -583,7 +583,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})],
 
       args,
-    }}/>, (...args:any) => <Elements.Text pass={{
+    }}/>, 
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -603,7 +604,26 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
 
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
