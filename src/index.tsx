@@ -828,7 +828,38 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           args,
         }}/>],arrFuncs: [() => {}],args,}}/>, (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            {}
+            (...args:any) => props.ListHeaderComponent({pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
+        }})
           ],
 
           pData: jsvals.j8({pass: {
