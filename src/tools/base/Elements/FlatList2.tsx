@@ -65,6 +65,8 @@ export const FlatList2 = (props: Tprops) => {
 
   // console.log({ elementProperties, allProps });
 
+console.log({ allProps });
+
   // ------- set Render
   return <FlatList {...allProps} />;
 };

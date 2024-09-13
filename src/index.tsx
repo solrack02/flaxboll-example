@@ -492,7 +492,8 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             
         (...args:any) => props.horizontal({ pass: {
           boolean: ['true']
-        }}), (...args:any) => props.ItemSeparatorComponent({ pass: {
+        }}), 
+        (...args:any) => props.ItemSeparatorComponent({ pass: {
           component: [
 
           (...args:any) => <Elements.DynView pass={{
@@ -501,6 +502,37 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
+        }}), (...args:any) => props.ListHeaderComponent({pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
         }})
         }})] }})],
 
@@ -541,7 +573,9 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: ['{width: 0, height: 0}'],
-          shadowOpacity: ['0.4px'],
+          shadowOpacity: [jsvals.j8({pass: {
+          propertieValues: "0.1"
+        }})],
           shadowRadius: ['20px'],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
@@ -640,6 +674,10 @@ stls.shadows({ pass: {
             args,
           }}/>
         , 
+        (...args:any) => <Elements.ScrollBar pass={{
+            styles: [],
+            arrProps: [],
+            arrItems: [
         (...args:any) => <Elements.Watcher pass={{variable: [jsvals.j8({pass: {
           propertieValues: "all.currCateg"
         }})],childrenItems: [(...args:any) => <Elements.FlatList2 pass={{
@@ -655,7 +693,7 @@ stls.shadows({ pass: {
 
             styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "30px"
+          propertieValues: "40px"
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
@@ -750,7 +788,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "30px"
+          propertieValues: "40px"
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
@@ -788,13 +826,40 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           ],
 
           args,
-        }}/>],arrFuncs: [() => {}],args,}}/>, 
-        (...args:any) => <Elements.ScrollBar pass={{
-            styles: [],
-            arrProps: [],
-            arrItems: [(...args:any) => <Elements.FlatList2 pass={{
+        }}/>],arrFuncs: [() => {}],args,}}/>, (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            {}
+            (...args:any) => props.ListHeaderComponent({pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
+        }})
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
+        }})
           ],
 
           pData: jsvals.j8({pass: {
@@ -824,7 +889,9 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: ['{width: 0, height: 0}'],
-          shadowOpacity: ['0.4px'],
+          shadowOpacity: [jsvals.j8({pass: {
+          propertieValues: "0.1"
+        }})],
           shadowRadius: ['20px'],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
@@ -1385,13 +1452,41 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         }})}
         }}), 
         jsvals.j8({pass: {
-          propertieValues: { }
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Roupas"
+        }})}
         }}), jsvals.j8({pass: {
-          propertieValues: { }
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Brinquedos"
+        }})}
         }}) ]
-        }}), 'Limpeza': jsvals.j8({pass: {
-          propertieValues: [ jsvals.j8({pass: {
-          propertieValues: { }
+        }}), 
+        'Limpeza': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Higiene e Perfumaria"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Lavanderia"
+        }})}
+        }}) ]
+        }}), 'Bebidas': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Refrigerantes"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Cafés, Chás e Achocolatados"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Sucos e Refrescos"
+        }})}
         }}) ]
         }}) }
         }})
