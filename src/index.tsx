@@ -716,7 +716,7 @@ stls.shadows({ pass: {
 
             styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
+          propertieValues: "20px"
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
@@ -811,7 +811,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
+          propertieValues: "20px"
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
