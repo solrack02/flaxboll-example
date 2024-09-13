@@ -492,7 +492,8 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             
         (...args:any) => props.horizontal({ pass: {
           boolean: ['true']
-        }}), (...args:any) => props.ItemSeparatorComponent({ pass: {
+        }}), 
+        (...args:any) => props.ItemSeparatorComponent({ pass: {
           component: [
 
           (...args:any) => <Elements.DynView pass={{
@@ -501,6 +502,27 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
+        }}), (...args:any) => props.ListHeaderComponent({pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.30"
         }})
         }})] }})],
 
