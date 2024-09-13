@@ -525,9 +525,14 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.fixed.30"
         }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+        }})] }}), 
+        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
         }})
         }})] }})],
 
