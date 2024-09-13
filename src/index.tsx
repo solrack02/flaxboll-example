@@ -1393,9 +1393,33 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           propertieValues: "Brinquedos"
         }})}
         }}) ]
-        }}), 'Limpeza': jsvals.j8({pass: {
-          propertieValues: [ jsvals.j8({pass: {
-          propertieValues: { }
+        }}), 
+        'Limpeza': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Higiene e Perfumaria"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Lavanderia"
+        }})}
+        }}) ]
+        }}), 'Bebidas': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Refrigerantes"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Cafés, Chás e Achocolatados"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Sucos e Refrescos"
+        }})}
         }}) ]
         }}) }
         }})
