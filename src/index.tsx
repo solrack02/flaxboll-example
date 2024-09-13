@@ -1385,9 +1385,13 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         }})}
         }}), 
         jsvals.j8({pass: {
-          propertieValues: { }
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Roupas"
+        }})}
         }}), jsvals.j8({pass: {
-          propertieValues: { }
+          propertieValues: {"name": jsvals.j8({pass: {
+          propertieValues: "Brinquedos"
+        }})}
         }}) ]
         }}), 'Limpeza': jsvals.j8({pass: {
           propertieValues: [ jsvals.j8({pass: {
