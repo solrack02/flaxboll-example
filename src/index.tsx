@@ -523,16 +523,11 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[
         stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
+          propertieValues: "all.sizes.fixed.10"
         }})
-        }})] }}), 
-        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.colors.primaryColor"
         }})
         }})] }})],
 
@@ -837,16 +832,11 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             styles:[
         stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
+          propertieValues: "all.sizes.fixed.10"
         }})
-        }})] }}), 
-        stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.colors.primaryColor"
         }})
         }})] }})],
 
