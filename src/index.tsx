@@ -956,14 +956,11 @@ stls.shadows({ pass: {
       elementsProperties:[{}],
 
       styles:[
-              {
-                height: "50px",
-                width: "80px",
-                backgroundColor: "#FDFDFD",
-                borderWidth: 2,
-                borderColor: "#EEE"
-              }
-              ],
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "50px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80px"
+        }})] }})],
 
       URIvariablePath:[jsvals.argReader({pass: {
           argPath: jsvals.j8({pass: {
