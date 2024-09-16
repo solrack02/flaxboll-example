@@ -473,8 +473,7 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[
-        (...args:any) => <Elements.ScrollBar pass={{
+            childrenItems:[(...args:any) => <Elements.ScrollBar pass={{
             styles: [
 stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
@@ -668,31 +667,7 @@ stls.shadows({ pass: {
           args,
         }}/>],
             args,
-        }}/>, 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.10"
-        }})
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        ],
+        }}/>],
 
             args,
           }}/>
@@ -854,7 +829,11 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.color({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.txtGrey9"
+        }})
+        }})] }})
           ],
 
           children: [
@@ -1355,8 +1334,14 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             'all': jsvals.j8({pass: {
           propertieValues: { 
         'colors': jsvals.j8({pass: {
-          propertieValues: { "primaryColor": jsvals.j8({pass: {
+          propertieValues: { 
+        "primaryColor": jsvals.j8({pass: {
           propertieValues: "#147804"
+        }}), 
+        "txtGrey9": jsvals.j8({pass: {
+          propertieValues: "#999"
+        }}), "txtGrey4": jsvals.j8({pass: {
+          propertieValues: "#444"
         }}) }
         }}), 
         'sizes': jsvals.j8({pass: {
