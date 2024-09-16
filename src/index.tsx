@@ -986,6 +986,31 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
           args,
 
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            
+stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }}), stls.color({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.txtGrey9"
+        }})
+        }})] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Valor Médio"
+        }})
+          ],
+
+          args,
+
         }}/>, (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
