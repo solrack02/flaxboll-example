@@ -32,6 +32,9 @@
         
         () => <>{/*elements library*/}</>, 
         
+        
+        () => <>{/*functions library*/}</>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc2",
