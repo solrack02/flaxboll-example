@@ -871,6 +871,287 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           ],
 
           args,
+        }}/>],arrFuncs: [() => {}],args,}}/>, 
+        (...args:any) => <Elements.Watcher pass={{variable: [jsvals.j8({pass: {
+          propertieValues: "all.currProds"
+        }})],childrenItems: [(...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            (...args:any) => props.ListHeaderComponent({pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
+        }})
+          ],
+
+          pData: jsvals.j3({pass: {
+          arrayStrings: [
+        jsvals.j8({pass: {
+          propertieValues: "all.lists."
+        }}), jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.currProds"
+        }})
+        }})],
+          joinSeparator: ""
+        }}),
+
+          itemElements: [
+            
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), 
+stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
+        }})] }}), 
+stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: ['{width: 0, height: 0}'],
+          shadowOpacity: [jsvals.j8({pass: {
+          propertieValues: "0.1"
+        }})],
+          shadowRadius: ['20px'],
+        }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "5px"
+        }})] }}), 
+        stls.marginHorizontal({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "15px"
+        }})] }}), stls.padding({ pass: { arrayValue: ['10px'] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+        
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "50px"
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "80px"
+        }})] }})],
+
+      URIvariablePath:[jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.item.image"
+        }}),
+          args
+        }})],
+
+      args,
+    }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.flex({ pass: { arrayValue: ['1'] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.color({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.txtGrey4"
+        }})
+        }})] }})
+          ],
+
+          children: [
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.name"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            
+stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})] }}), stls.color({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.txtGrey9"
+        }})
+        }})] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Valor Médio"
+        }})
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
+          ],
+
+          children: [
+            
+        jsvals.j8({pass: {
+          propertieValues: "R$"
+        }}), jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.price"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[[]],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "+"
+        }})
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.amount"
+        }}),
+          args
+        }})
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.fontWeight({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "600"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "-"
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        
+          ],
+
+          args,
         }}/>],arrFuncs: [() => {}],args,}}/>, (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             (...args:any) => props.ListHeaderComponent({pass: {
