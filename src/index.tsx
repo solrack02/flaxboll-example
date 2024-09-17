@@ -1885,7 +1885,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})}
         }}) ]
         }}), 'menuList': jsvals.j8({pass: {
-          propertieValues: [ {"name": "Home"},{"name": "Compras"} ]
+          propertieValues: [ {"name": "Home", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Fico%20(2).png?alt=media&token=af9f9cb8-c0c9-4cf6-811c-636594aec27e"},{"name": "Compras","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Fico%20(3).png?alt=media&token=612e443f-0625-4322-809a-cc461e2ed543"} ]
         }}) }
         }})
           });
