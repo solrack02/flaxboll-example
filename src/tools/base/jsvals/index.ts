@@ -77,6 +77,10 @@ type Tprops_j8 = {
 export const j8 = (props: Tprops_j8) => {
   const { propertieValues } = props.pass;
 
+  if (checkValues) {
+    return parseInt(propertieValues.replace(/D/g, ''), 10);
+  }
+
   return propertieValues;
 };
 
