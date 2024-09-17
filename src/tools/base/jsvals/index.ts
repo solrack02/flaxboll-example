@@ -78,8 +78,8 @@ export const j8 = (props: Tprops_j8) => {
   const { propertieValues } = props.pass;
 
 
-  const check1 = propertieValues.includes('px');
-  const check2 = propertieValues.includes('%');
+  const check1 = propertieValues?.includes('px');
+  const check2 = propertieValues?.includes('%');
   const checkValues = check1 || check2;
 
   if (checkValues) {
