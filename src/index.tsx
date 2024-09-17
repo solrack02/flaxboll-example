@@ -274,11 +274,20 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
     }}/>],
 
           pressableFunctions: [
+        
         (...args) => {
           // ---------- get Function from A_Project Scope
           return tools.goTo("sc2");
         }
-        ],
+        , async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "all.toggles.sideMenu"
+        }})],
+          value: jsvals.j8({pass: {
+          propertieValues: "show"
+        }})
+        }})],
 
           args,
         }}/>],
