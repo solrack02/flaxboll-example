@@ -2221,10 +2221,10 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         'Rações': jsvals.j8({pass: {
           propertieValues: [ {"name": "Ração Golden Gatos Adultos Carne", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fracao-golden-gatos-castrados-carne-3823767-1kg-Frente.webp?alt=media&token=9a657bbd-58dd-40e5-be8c-af486231abc8"},{"name": "Ração Úmida Friskies Gatos Adultos Carne ao Molho","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fracao-umida-friskies-gatos-adultos-carne-ao-molho.png?alt=media&token=a6eeab6e-2b91-4ee0-9e6a-f71492016f07"} ]
         }}), 
-        'Limpeza': jsvals.j8({pass: {
+        'Higiene e Perfumaria': jsvals.j8({pass: {
           propertieValues: [ {"name": "Amaciante Concentrado Comfort Frescor Intenso 900 ml", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fsabao-liquido-omo-lavagem-perfeita-3l-1.webp?alt=media&token=fd68273c-cd77-4568-8b0f-7ef36048eb1b"},{"name": "Água Sanitária 2 Litros","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fagua-sanitaria-carrefour-2-litros-1.webp?alt=media&token=9da6fa93-6d5f-420f-b29d-802a11980f81"} ]
         }}), 
-        'Bebidas': jsvals.j8({pass: {
+        'Refrigerantes': jsvals.j8({pass: {
           propertieValues: [ {"name": "Coca-Cola Pet 600 ml", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fcoca-cola-600ml-1.webp?alt=media&token=94f0b716-e56e-4fec-8ea4-5895593d9ea6"},{"name": "Kit 1 Coca-Cola Original + 1 Fanta Guaraná 2L", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2F6534465_1.webp?alt=media&token=a6940c81-ddc8-4617-9348-49c06b841706"} ]
         }}), 'prods': jsvals.j8({pass: {
           propertieValues: [ 
