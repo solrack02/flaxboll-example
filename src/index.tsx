@@ -1468,7 +1468,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})
         }})] }})],
 
-      URIvariablePath:["https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      URIvariablePath:[jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Fico%20(6).png?alt=media&token=ee9eaf14-a432-46d5-b4fd-0cea744396e8"
+        }})],
 
       args,
     }}/>, 
