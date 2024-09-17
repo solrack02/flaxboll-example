@@ -1469,7 +1469,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
-          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Fico%20(6).png?alt=media&token=ee9eaf14-a432-46d5-b4fd-0cea744396e8"
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Fico%20(6).png?alt=media&token=c9cb8e31-1a79-47e1-828b-34bd0a0199d9"
         }})],
 
       args,
