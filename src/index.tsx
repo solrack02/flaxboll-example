@@ -853,7 +853,18 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "all.currProds"
+        }})],
+          value: jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.item.name"
+        }}),
+          args
+        }})
+        }})],
 
           args,
         }}/>
