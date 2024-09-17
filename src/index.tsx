@@ -1382,9 +1382,13 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
         }})] }})],
 
-            variablePath:[ ],
+            variablePath:[jsvals.j8({pass: {
+          propertieValues: "all.toggles.sideMenu"
+        }})],
 
-            expectedVal:[ ],
+            expectedVal:[jsvals.j8({pass: {
+          propertieValues: "show"
+        }})],
 
             childrenItems:[
 
@@ -1515,7 +1519,15 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "all.toggles.sideMenu"
+        }})],
+          value: jsvals.j8({pass: {
+          propertieValues: "hide"
+        }})
+        }})],
 
           args,
         }}/>, 
