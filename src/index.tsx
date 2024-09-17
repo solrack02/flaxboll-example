@@ -891,8 +891,16 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         }})
           ],
 
-          pData: jsvals.j8({pass: {
-          propertieValues: "all.prods"
+          pData: jsvals.j3({pass: {
+          arrayStrings: [
+        jsvals.j8({pass: {
+          propertieValues: "all.lists."
+        }}), jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.currProds"
+        }})
+        }})],
+          joinSeparator: ""
         }}),
 
           itemElements: [
@@ -1865,7 +1873,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         "currCateg": jsvals.j8({pass: {
           propertieValues: "Pets"
         }}), 
-        "currProd": jsvals.j8({pass: {
+        "currProds": jsvals.j8({pass: {
           propertieValues: "prods"
         }}), 
         'Pets': jsvals.j8({pass: {
@@ -1923,8 +1931,66 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}), 
         'Limpeza': jsvals.j8({pass: {
           propertieValues: [ {"name": "Amaciante Concentrado Comfort Frescor Intenso 900 ml", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fsabao-liquido-omo-lavagem-perfeita-3l-1.webp?alt=media&token=fd68273c-cd77-4568-8b0f-7ef36048eb1b"},{"name": "Água Sanitária 2 Litros","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fagua-sanitaria-carrefour-2-litros-1.webp?alt=media&token=9da6fa93-6d5f-420f-b29d-802a11980f81"} ]
-        }}), 'Bebidas': jsvals.j8({pass: {
+        }}), 
+        'Bebidas': jsvals.j8({pass: {
           propertieValues: [ {"name": "Coca-Cola Pet 600 ml", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2Fcoca-cola-600ml-1.webp?alt=media&token=94f0b716-e56e-4fec-8ea4-5895593d9ea6"},{"name": "Kit 1 Coca-Cola Original + 1 Fanta Guaraná 2L", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/prods%2F6534465_1.webp?alt=media&token=a6940c81-ddc8-4617-9348-49c06b841706"} ]
+        }}), 'prods': jsvals.j8({pass: {
+          propertieValues: [ 
+        jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Torta Holandesa MISS DAISY 470g"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/torta.png?alt=media&token=4daa4ce3-ca7d-45ec-a8b4-f4162e648368"
+        }}), 
+        "price": jsvals.j8({pass: {
+          propertieValues: "26,79"
+        }}), "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Requeijão Vigor"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/requeijao.png?alt=media&token=a15c2035-3ef5-4f14-a7c8-7d58dd7b1fc0"
+        }}), 
+        "price": jsvals.j8({pass: {
+          propertieValues: "6,59"
+        }}), "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }})}
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Presunto Sadia 200g"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/presunto.png?alt=media&token=bc236340-c063-41c6-a98c-af1707cfe482"
+        }}), 
+        "price": jsvals.j8({pass: {
+          propertieValues: "9,60"
+        }}), "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }})}
+        }}), jsvals.j8({pass: {
+          propertieValues: {
+        "name": jsvals.j8({pass: {
+          propertieValues: "Sorvete Kibon 800ml Ovomaltine"
+        }}), 
+        "image": jsvals.j8({pass: {
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/sorvete.png?alt=media&token=e3e69eb6-b7c6-4ee8-8c72-294417307398"
+        }}), 
+        "amount": jsvals.j8({pass: {
+          propertieValues: "0"
+        }}), "price": jsvals.j8({pass: {
+          propertieValues: "19,90"
+        }})}
+        }}) ]
         }}) }
         }}) }
         }})
