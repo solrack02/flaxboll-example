@@ -1429,7 +1429,8 @@ stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+            childrenItems:[
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -1440,10 +1441,13 @@ stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
-        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
+        }})] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
         }})] }})],
 
           childrenItems: [
@@ -1466,7 +1470,25 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
       URIvariablePath:["https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
 
       args,
-    }}/>, (...args:any) => <Elements.Text pass={{
+    }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "5px"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -1488,7 +1510,31 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
