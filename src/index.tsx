@@ -1723,7 +1723,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: "Lavanderia"
         }})}
         }}) ]
-        }}), 'Bebidas': jsvals.j8({pass: {
+        }}), 
+        'Bebidas': jsvals.j8({pass: {
           propertieValues: [ 
         jsvals.j8({pass: {
           propertieValues: {"name": jsvals.j8({pass: {
@@ -1739,6 +1740,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: "Sucos e Refrescos"
         }})}
         }}) ]
+        }}), 'menuList': jsvals.j8({pass: {
+          propertieValues: [ {"name": "Home"},{"name": "Compras"} ]
         }}) }
         }})
           });
