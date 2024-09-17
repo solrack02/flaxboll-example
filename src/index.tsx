@@ -1375,8 +1375,11 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "rgba(0,0,0,0.6)"
+        }})] }}), stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
         }})] }})],
 
             variablePath:[ ],
