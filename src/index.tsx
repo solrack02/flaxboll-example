@@ -1399,9 +1399,13 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "260px"
-        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
-        }})] }})],
+        }})] }}), 
+stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
+        }})] }}), stls.left({ pass: { arrayValue: ['1px'] }})],
 
             variablePath:[ ],
 
