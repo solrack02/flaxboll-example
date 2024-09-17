@@ -1446,7 +1446,24 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
         }})
         }})] }})],
 
-          childrenItems: [()=><></>],
+          childrenItems: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Voltar"
+        }})
+          ],
+
+          args,
+
+        }}/>],
 
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
