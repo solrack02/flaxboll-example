@@ -816,12 +816,10 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         }}),
 
           itemElements: [
-            
+            (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
 
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
+          styles: [
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
         }})] }}), 
@@ -829,11 +827,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           propertieValues: "center"
         }})] }})],
 
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Text pass={{
+          childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -859,9 +853,10 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
         }}/>],
 
-            args,
-          }}/>
-        
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>
           ],
 
           args,
