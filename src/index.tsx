@@ -1387,7 +1387,6 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -1413,6 +1412,7 @@ stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -1532,10 +1532,6 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
             expectedVal:[ ],
 
             childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        ],
 
             args,
           }}/>
@@ -1685,6 +1681,10 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
         }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
