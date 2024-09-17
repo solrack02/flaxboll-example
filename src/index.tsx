@@ -1865,6 +1865,9 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         "currCateg": jsvals.j8({pass: {
           propertieValues: "Pets"
         }}), 
+        "currProd": jsvals.j8({pass: {
+          propertieValues: "prods"
+        }}), 
         'Pets': jsvals.j8({pass: {
           propertieValues: [ 
         jsvals.j8({pass: {
@@ -1910,8 +1913,11 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: "Sucos e Refrescos"
         }})}
         }}) ]
-        }}), 'menuList': jsvals.j8({pass: {
+        }}), 
+        'menuList': jsvals.j8({pass: {
           propertieValues: [ {"name": "Home", "image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Ficons.png?alt=media&token=fee369a4-e148-45f7-9c27-fe70b66a06a8"},{"name": "Compras","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Ficons-1.png?alt=media&token=3ec27bf0-b38f-4733-8f7b-403ba22e9c30"},{"name": "Meu Perfil","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Ficons-2.png?alt=media&token=10a18172-cf2e-4ebc-8f25-fe2a31ef5e81"},{"name": "Sair","image": "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/icons%2Ficons-4.png?alt=media&token=c0276b6d-6e95-4637-888b-fe0e912a200a"} ]
+        }}), 'no name': jsvals.j8({pass: {
+          propertieValues: {   }
         }}) }
         }})
           });
