@@ -1638,8 +1638,11 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           ],
 
           children: [
-            jsvals.j8({pass: {
-          propertieValues: "Voltar"
+            jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0.0.0.item.name"
+        }}),
+          args
         }})
           ],
 
