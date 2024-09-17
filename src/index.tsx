@@ -1405,7 +1405,12 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
-        }})] }}), stls.left({ pass: { arrayValue: ['1px'] }})],
+        }})] }}), 
+stls.left({ pass: { arrayValue: ['1px'] }}), stls.padding({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.fixed.10"
+        }})
+        }})] }})],
 
             variablePath:[ ],
 
