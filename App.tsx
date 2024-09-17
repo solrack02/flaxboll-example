@@ -3,6 +3,6 @@ import * as RN from "react-native";
 // import { Router } from './src';
 
 export default function App() {
-  return <RN.Text>Ola Mundo</RN.Text>;
+  return <RN.Text style={{ marginTop: "50px" }}>Ola Mundo</RN.Text>;
   // return <Router />;
 }
