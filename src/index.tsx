@@ -1101,7 +1101,9 @@ stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
             styles:[
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "20px"
-        }})] }}), stls.alignItems({ pass: { arrayValue: ['flex-start'] }})],
+        }})] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
 
             variablePath:[ ],
 
