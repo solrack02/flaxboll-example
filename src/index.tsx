@@ -1264,7 +1264,7 @@ stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
         }})] }}), 
 stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "-36px"
+          propertieValues: "-20px"
         }})] }}), 
 stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100px"
