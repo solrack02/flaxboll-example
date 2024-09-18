@@ -82,9 +82,7 @@ export const j8 = (props: Tprops_j8) => {
 
   const nativeDevices = Platform.OS !== 'web';
   const isAString = typeof propertieValues === 'string';
-  const check1 = isAString && propertieValues?.includes('px');
-  const check2 = isAString && propertieValues?.includes('%');
-  const checkValues = check1 || check2;
+  const checkValues = isAString && propertieValues?.includes('px');
 
   if (checkValues && nativeDevices) {
     return parseInt(propertieValues.replace(/D/g, ''), 10);
