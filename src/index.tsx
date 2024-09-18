@@ -258,7 +258,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10" {...props} > <Path {...props} d="M0 1.5A1.5 1.5 0 0 1 1.5 0h18a1.5 1.5 0 0 1 0 3h-18A1.5 1.5 0 0 1 0 1.5ZM0 8.5A1.5 1.5 0 0 1 1.5 7h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 0 8.5Z" /> </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10" {...props} ><Path {...props} d="M0 1.5A1.5 1.5 0 0 1 1.5 0h18a1.5 1.5 0 0 1 0 3h-18A1.5 1.5 0 0 1 0 1.5ZM0 8.5A1.5 1.5 0 0 1 1.5 7h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 0 8.5Z" /></Svg>)
       },
 
       svgOriginal: `
@@ -1223,7 +1223,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={20} height={22} fill="red" viewBox="0 0 20 22" {...props} > <Path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21V11h6v10M1 8l9-7 9 7v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Z" /> </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={20} height={22} fill="red" viewBox="0 0 20 22" {...props} ><Path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21V11h6v10M1 8l9-7 9 7v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Z" /></Svg>)
       },
 
       svgOriginal: `
@@ -1309,7 +1309,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={26} height={25} fill="red" viewBox="0 0 26 25" {...props} > <Path fill="#fff" d="M8.294 19.571c-1.5 0-2.714 1.197-2.714 2.673s1.215 2.673 2.714 2.673c1.499 0 2.714-1.197 2.714-2.673S9.793 19.57 8.294 19.57Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485s1.508.665 1.508 1.485c0 .82-.675 1.485-1.508 1.485ZM19.755 19.571c-1.5 0-2.715 1.197-2.715 2.673s1.216 2.673 2.715 2.673c1.499 0 2.714-1.197 2.714-2.673s-1.215-2.673-2.714-2.673Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485.832 0 1.508.665 1.508 1.485 0 .82-.676 1.485-1.508 1.485ZM25.877 3.98a.758.758 0 0 0-.483-.238L5.761 3.475 5.218 1.84A2.772 2.772 0 0 0 2.624 0H.604A.599.599 0 0 0 0 .594c0 .328.27.594.603.594h2.02a1.566 1.566 0 0 1 1.449 1.04l3.83 11.374-.302.683a2.813 2.813 0 0 0 .272 2.584 2.815 2.815 0 0 0 2.262 1.247h11.732a.599.599 0 0 0 .603-.594.599.599 0 0 0-.603-.594H10.134a1.543 1.543 0 0 1-1.267-.713 1.612 1.612 0 0 1-.15-1.425l.24-.535 12.698-1.307a3.3 3.3 0 0 0 2.865-2.494l1.448-5.97a.499.499 0 0 0-.091-.504Zm-2.533 6.206a2.041 2.041 0 0 1-1.84 1.575L8.957 13.037 6.153 4.662l18.488.267-1.297 5.256Z" /> </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={26} height={25} fill="red" viewBox="0 0 26 25" {...props} ><Path fill="#fff" d="M8.294 19.571c-1.5 0-2.714 1.197-2.714 2.673s1.215 2.673 2.714 2.673c1.499 0 2.714-1.197 2.714-2.673S9.793 19.57 8.294 19.57Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485s1.508.665 1.508 1.485c0 .82-.675 1.485-1.508 1.485ZM19.755 19.571c-1.5 0-2.715 1.197-2.715 2.673s1.216 2.673 2.715 2.673c1.499 0 2.714-1.197 2.714-2.673s-1.215-2.673-2.714-2.673Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485.832 0 1.508.665 1.508 1.485 0 .82-.676 1.485-1.508 1.485ZM25.877 3.98a.758.758 0 0 0-.483-.238L5.761 3.475 5.218 1.84A2.772 2.772 0 0 0 2.624 0H.604A.599.599 0 0 0 0 .594c0 .328.27.594.603.594h2.02a1.566 1.566 0 0 1 1.449 1.04l3.83 11.374-.302.683a2.813 2.813 0 0 0 .272 2.584 2.815 2.815 0 0 0 2.262 1.247h11.732a.599.599 0 0 0 .603-.594.599.599 0 0 0-.603-.594H10.134a1.543 1.543 0 0 1-1.267-.713 1.612 1.612 0 0 1-.15-1.425l.24-.535 12.698-1.307a3.3 3.3 0 0 0 2.865-2.494l1.448-5.97a.499.499 0 0 0-.091-.504Zm-2.533 6.206a2.041 2.041 0 0 1-1.84 1.575L8.957 13.037 6.153 4.662l18.488.267-1.297 5.256Z" /></Svg>)
       },
 
       svgOriginal: `
@@ -1355,7 +1355,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="red" viewBox="0 0 22 22" {...props} > <Path fill="#000" d="M9.688 0C4.346 0 0 4.346 0 9.688c0 5.343 4.346 9.689 9.688 9.689 5.343 0 9.689-4.346 9.689-9.689C19.377 4.346 15.03 0 9.688 0Zm0 17.588c-4.356 0-7.9-3.544-7.9-7.9 0-4.355 3.544-7.9 7.9-7.9s7.9 3.544 7.9 7.9-3.544 7.9-7.9 7.9Z" /> <Path fill="#000" d="m21.738 20.473-5.127-5.127a.894.894 0 1 0-1.265 1.265l5.127 5.127a.891.891 0 0 0 1.265 0 .894.894 0 0 0 0-1.265Z" /> </Svg>)
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} fill="red" viewBox="0 0 22 22" {...props} ><Path fill="#000" d="M9.688 0C4.346 0 0 4.346 0 9.688c0 5.343 4.346 9.689 9.688 9.689 5.343 0 9.689-4.346 9.689-9.689C19.377 4.346 15.03 0 9.688 0Zm0 17.588c-4.356 0-7.9-3.544-7.9-7.9 0-4.355 3.544-7.9 7.9-7.9s7.9 3.544 7.9 7.9-3.544 7.9-7.9 7.9Z" /> <Path fill="#000" d="m21.738 20.473-5.127-5.127a.894.894 0 1 0-1.265 1.265l5.127 5.127a.891.891 0 0 0 1.265 0 .894.894 0 0 0 0-1.265Z" /></Svg>)
       },
 
       svgOriginal: `
