@@ -1250,7 +1250,8 @@ stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100px"
-        }})] }}), stls.shadows({ pass: {
+        }})] }}), 
+stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: [jsvals.j8({pass: {
           propertieValues: "{width: 0, height: -4}"
@@ -1260,6 +1261,15 @@ stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
           shadowRadius: [jsvals.j8({pass: {
           propertieValues: "6px"
+        }})],
+        }}), stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: ['{width: 0, height: 0}'],
+          shadowOpacity: [jsvals.j8({pass: {
+          propertieValues: "0.1"
+        }})],
+          shadowRadius: [jsvals.j8({pass: {
+          propertieValues: "10px"
         }})],
         }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
