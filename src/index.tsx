@@ -1010,7 +1010,9 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
             styles:[
 stls.flex({ pass: { arrayValue: ['1'] }}), 
-stls.borderRightWidth({ pass: { arrayValue: ['1px'] }}), stls.borderRightColor({ pass: { arrayValue: ['white'] }})],
+stls.borderRightWidth({ pass: { arrayValue: ['1px'] }}), stls.borderRightColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#efefef"
+        }})] }})],
 
             variablePath:[ ],
 
@@ -1102,7 +1104,7 @@ stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
 
             styles:[
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "20px"
+          propertieValues: "30px"
         }})] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
         }})] }})],
