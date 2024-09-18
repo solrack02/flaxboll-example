@@ -26,18 +26,12 @@ export const shadows = (props: Tprops_shadows) => {
   const isWeb = Platform.OS === 'web';
   const isAndroid = Platform.OS === 'android';
 
+  const toValue = (varValue, str?) => {
+    if (str === 'str') return varValue.join().replace('px', '');
+    if (str !== 'str') return Number(varValue.join().replace('px', ''));
+  };
+
   if (isIOs || isWeb) {
-    const toValue = (varValue, str?) => {
-      if (str === 'str') return varValue.join().replace('px', '');
-      if (str !== 'str') return Number(varValue.join().replace('px', ''));
-    };
-
-    // console.log({ shadowColor });
-    // console.log({ shadowOffset });
-    // console.log({ shadowOffset2: toValue(shadowOffset, 'str') });
-    // console.log({ shadowOpacity });
-    // console.log({ shadowRadius });
-
     const objReturn: ShadowStyleIOS = {
       shadowOffset: iAmAObj,
       shadowColor: toValue(shadowColor, 'str'),
@@ -50,7 +44,8 @@ export const shadows = (props: Tprops_shadows) => {
   }
 
   if (isAndroid) {
-    const shadowAndroid = { elevation: 6 };
+    const elevation = toValue(shadowRadius);
+    const shadowAndroid = { elevation };
     console.log({ shadowAndroid });
     return shadowAndroid;
   }
