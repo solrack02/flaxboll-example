@@ -1,6 +1,6 @@
 
 // ---------- import Packs
-import { ShadowStyleIOS } from 'react-native';
+import { Platform, ShadowStyleIOS } from 'react-native';
 
 type Tprops_shadows = {
   pass: {
@@ -22,26 +22,38 @@ export const shadows = (props: Tprops_shadows) => {
     iAmAObj[key] = value;
   });
 
-  const toValue = (varValue, str?) => {
-    if (str === 'str') return varValue.join().replace('px', '');
-    if (str !== 'str') return Number(varValue.join().replace('px', ''));
-  };
+  const isIOs = Platform.OS === 'ios';
+  const isWeb = Platform.OS === 'web';
+  const isAndroid = Platform.OS === 'android';
 
-  console.log({ shadowColor });
-  console.log({ shadowOffset });
-  console.log({ shadowOffset2: toValue(shadowOffset, 'str') });
-  console.log({ shadowOpacity });
-  console.log({ shadowRadius });
+  if (isIOs || isWeb) {
+    const toValue = (varValue, str?) => {
+      if (str === 'str') return varValue.join().replace('px', '');
+      if (str !== 'str') return Number(varValue.join().replace('px', ''));
+    };
 
-  const objReturn: ShadowStyleIOS = {
-    shadowOffset: iAmAObj,
-    shadowColor: toValue(shadowColor, 'str'),
-    shadowOpacity: toValue(shadowOpacity),
-    shadowRadius: toValue(shadowRadius),
-  };
-  console.log({ objReturn });
+    // console.log({ shadowColor });
+    // console.log({ shadowOffset });
+    // console.log({ shadowOffset2: toValue(shadowOffset, 'str') });
+    // console.log({ shadowOpacity });
+    // console.log({ shadowRadius });
 
-  return objReturn;
+    const objReturn: ShadowStyleIOS = {
+      shadowOffset: iAmAObj,
+      shadowColor: toValue(shadowColor, 'str'),
+      shadowOpacity: toValue(shadowOpacity),
+      shadowRadius: toValue(shadowRadius),
+    };
+    console.log({ objReturn });
+
+    return objReturn;
+  }
+
+  if (isAndroid) {
+    const shadowAndroid = { elevation: 6 };
+    console.log({ shadowAndroid });
+    return shadowAndroid;
+  }
 };
 
 // Fonte - textShadowColor
@@ -185,4 +197,3 @@ export const boxShadow = (props: Tprops_shadows2) => {
 
   return objReturn;
 };
-
