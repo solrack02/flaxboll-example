@@ -120,8 +120,11 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
-        }})] }}), stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), 
+        stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "absolute"
+        }})] }}), stls.zIndex({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "0"
         }})] }})],
 
             variablePath:[ ],
