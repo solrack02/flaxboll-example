@@ -44,7 +44,7 @@ export const shadows = (props: Tprops_shadows) => {
   }
 
   if (isAndroid) {
-    const elevation = toValue(shadowRadius);
+    const elevation = toValue(shadowRadius) - 4;
     const shadowAndroid = { elevation };
     console.log({ shadowAndroid });
     return shadowAndroid;
@@ -85,110 +85,3 @@ export const textShadowOffset = (props: Tprops_textShadowOffset) => {
   return { textShadowOffset: arrayValue };
 };
 
-// Opacidade da Sombra - shadowOpacity // DESCONTINUADO (REMOVER NO FLAX / DEPOIS APAGAR DAQUI)
-type Tprops_shadowOpacity = {
-  pass: { arrayValue: any[] };
-};
-export const shadowOpacity = (props: Tprops_shadowOpacity) => {
-  let { arrayValue } = props.pass;
-
-  const isArray = Array.isArray(arrayValue);
-  if (isArray) {
-    arrayValue = arrayValue.join();
-
-    const isNumber = !isNaN(arrayValue);
-    if (isNumber) arrayValue = Number(arrayValue);
-  }
-  return { shadowOpacity: arrayValue };
-};
-
-// Raio da Sombra - shadowRadius // DESCONTINUADO (REMOVER NO FLAX / DEPOIS APAGAR DAQUI)
-type Tprops_shadowRadius = {
-  pass: { arrayValue: any[] };
-};
-export const shadowRadius = (props: Tprops_shadowRadius) => {
-  let { arrayValue } = props.pass;
-
-  const isArray = Array.isArray(arrayValue);
-  if (isArray) {
-    arrayValue = arrayValue.join();
-
-    const isNumber = !isNaN(arrayValue);
-    if (isNumber) arrayValue = Number(arrayValue);
-  }
-  return { shadowRadius: arrayValue };
-};
-
-// Posição da Sombra - shadowOffset // DESCONTINUADO (REMOVER NO FLAX / DEPOIS APAGAR DAQUI)
-type Tprops_shadowOffset = {
-  pass: { arrayValue1: any; arrayValue2: any };
-};
-export const shadowOffset = (props: Tprops_shadowOffset) => {
-  let { arrayValue1, arrayValue2 } = props.pass;
-
-  console.log({ arrayValue1 });
-  console.log({ arrayValue2 });
-  const isArray1 = Array.isArray(arrayValue1);
-  if (isArray1) {
-    arrayValue1 = arrayValue1.join();
-
-    const isNumber = !isNaN(arrayValue1);
-    if (isNumber) arrayValue1 = Number(arrayValue1);
-  }
-  const isArray2 = Array.isArray(arrayValue2);
-  if (isArray2) {
-    arrayValue2 = arrayValue2.join();
-
-    const isNumber = !isNaN(arrayValue2);
-    if (isNumber) arrayValue2 = Number(arrayValue2);
-  }
-  const returnObj = {
-    shadowOffset: { width: 1, height: 1 },
-  };
-
-  return returnObj;
-};
-
-// Cor da Sombra - shadowColor // DESCONTINUADO (REMOVER NO FLAX / DEPOIS APAGAR DAQUI)
-type Tprops_shadowColor = {
-  pass: { arrayValue: any[] };
-};
-export const shadowColor = (props: Tprops_shadowColor) => {
-  let { arrayValue } = props.pass;
-
-  const isArray = Array.isArray(arrayValue);
-  if (isArray) {
-    arrayValue = arrayValue.join();
-
-    const isNumber = !isNaN(arrayValue);
-    if (isNumber) arrayValue = Number(arrayValue);
-  }
-  return { shadowColor: arrayValue };
-};
-
-// New boxShadow // DESCONTINUADO (REMOVER NO FLAX / DEPOIS APAGAR DAQUI)
-type Tprops_shadows2 = {
-  pass: {
-    arrayValue1: any[];
-    arrayValue2: any[];
-    arrayValue3: any[];
-    arrayValue4: any[];
-  };
-};
-export const boxShadow = (props: Tprops_shadows2) => {
-  let { arrayValue1, arrayValue2, arrayValue3, arrayValue4 } = props.pass;
-
-  console.log({ arrayValue1 });
-  console.log({ arrayValue2 });
-  console.log({ arrayValue3 });
-  console.log({ arrayValue4 });
-
-  const objReturn: ShadowStyleIOS = {
-    shadowOffset: { width: 0, height: 0 },
-    shadowColor: 'black',
-    shadowOpacity: 0.5,
-    shadowRadius: 14,
-  };
-
-  return objReturn;
-};
