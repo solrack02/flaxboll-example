@@ -4,7 +4,7 @@ import React from 'react';
 import * as RN from 'react-native';
 
 import { SafeAreaView, Platform, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'expo-status-bar@1.12.1';
 
 // ---------- import Variables Pack
 
