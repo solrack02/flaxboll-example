@@ -1174,10 +1174,8 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
         }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.fixed.30"
-        }})
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
