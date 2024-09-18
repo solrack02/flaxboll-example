@@ -1582,7 +1582,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "240px"
+          propertieValues: "80%"
         }})] }}), 
 stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
