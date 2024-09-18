@@ -583,7 +583,9 @@ stls.shadows({ pass: {
           shadowOpacity: [jsvals.j8({pass: {
           propertieValues: "0.1"
         }})],
-          shadowRadius: ['20px'],
+          shadowRadius: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
         }})] }}), 
@@ -965,7 +967,9 @@ stls.shadows({ pass: {
           shadowOpacity: [jsvals.j8({pass: {
           propertieValues: "0.1"
         }})],
-          shadowRadius: ['20px'],
+          shadowRadius: [jsvals.j8({pass: {
+          propertieValues: "10px"
+        }})],
         }}), stls.marginVertical({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "5px"
         }})] }}), 
