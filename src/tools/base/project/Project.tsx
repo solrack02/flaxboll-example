@@ -2,8 +2,9 @@
 // ---------- import React Packs
 import React from 'react';
 import * as RN from 'react-native';
-// import { StatusBar } from 'expo-status-bar';
+
 import { SafeAreaView, Platform, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
 // ---------- import Variables Pack
 
@@ -46,13 +47,10 @@ export const Project = ({ configData }: Tprops) => {
       <SafeAreaView
         style={{ width: '100%', height: '100%', overflow: 'hidden' }}
       >
-        {!condWeb && <View style={{ height: 30 }} />}
-
         {mapElements(screens)}
 
-        {/* <StatusBar style="light" /> */}
+        <StatusBar style="light" />
       </SafeAreaView>
     </RN.View>
   );
 };
-
