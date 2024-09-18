@@ -1427,14 +1427,8 @@ stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "70px"
-        }})] }}), 
-stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "#fff"
-        }})] }}), 
-stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "-20px"
-        }})] }}), stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100px"
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
