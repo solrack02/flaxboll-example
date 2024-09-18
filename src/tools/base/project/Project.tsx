@@ -4,7 +4,7 @@ import React from 'react';
 import * as RN from 'react-native';
 
 import { SafeAreaView, Platform, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'react-native';
 
 // ---------- import Variables Pack
 
@@ -49,7 +49,7 @@ export const Project = ({ configData }: Tprops) => {
       >
         {mapElements(screens)}
 
-        <StatusBar style="light" />
+        <StatusBar barStyle={'light-content'} />
       </SafeAreaView>
     </RN.View>
   );
