@@ -1185,6 +1185,9 @@ stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
         }})] }}), 
 stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "space-around"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
         }})] }}), stls.shadows({ pass: {
           shadowColor: ['#000'],
           shadowOffset: [jsvals.j8({pass: {
