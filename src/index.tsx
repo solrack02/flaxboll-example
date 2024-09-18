@@ -1230,6 +1230,150 @@ stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
             expectedVal:[ ],
 
             childrenItems:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+        
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "70px"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "70px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), 
+stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "-20px"
+        }})] }}), 
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100px"
+        }})] }}), stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: [jsvals.j8({pass: {
+          propertieValues: "{width: 0, height: -4}"
+        }})],
+          shadowOpacity: [jsvals.j8({pass: {
+          propertieValues: "0.1"
+        }})],
+          shadowRadius: [jsvals.j8({pass: {
+          propertieValues: "6px"
+        }})],
+        }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100px"
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "56px"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "56px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
+        }})
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
+
+          childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
+      componentSvg: (Svg:any, SvgObj:any) => {
+        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
+        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={26} height={25} fill="red" viewBox="0 0 26 25" {...props} ><Path fill="#fff" d="M8.294 19.571c-1.5 0-2.714 1.197-2.714 2.673s1.215 2.673 2.714 2.673c1.499 0 2.714-1.197 2.714-2.673S9.793 19.57 8.294 19.57Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485s1.508.665 1.508 1.485c0 .82-.675 1.485-1.508 1.485ZM19.755 19.571c-1.5 0-2.715 1.197-2.715 2.673s1.216 2.673 2.715 2.673c1.499 0 2.714-1.197 2.714-2.673s-1.215-2.673-2.714-2.673Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485.832 0 1.508.665 1.508 1.485 0 .82-.676 1.485-1.508 1.485ZM25.877 3.98a.758.758 0 0 0-.483-.238L5.761 3.475 5.218 1.84A2.772 2.772 0 0 0 2.624 0H.604A.599.599 0 0 0 0 .594c0 .328.27.594.603.594h2.02a1.566 1.566 0 0 1 1.449 1.04l3.83 11.374-.302.683a2.813 2.813 0 0 0 .272 2.584 2.815 2.815 0 0 0 2.262 1.247h11.732a.599.599 0 0 0 .603-.594.599.599 0 0 0-.603-.594H10.134a1.543 1.543 0 0 1-1.267-.713 1.612 1.612 0 0 1-.15-1.425l.24-.535 12.698-1.307a3.3 3.3 0 0 0 2.865-2.494l1.448-5.97a.499.499 0 0 0-.091-.504Zm-2.533 6.206a2.041 2.041 0 0 1-1.84 1.575L8.957 13.037 6.153 4.662l18.488.267-1.297 5.256Z" /></Svg>)
+      },
+
+      svgOriginal: `
+        <svg></svg>
+      `,
+
+      altura: "25px",
+
+      largura: "25px",
+
+      preenchimento: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})],
+
+      args,
+    }}/>],
+
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "absolute"
+        }})] }}), 
+stls.bottom({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "0"
+        }})] }}), 
+stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "40px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), 
+stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "row"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "space-around"
+        }})] }}), 
+stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }}), stls.shadows({ pass: {
+          shadowColor: ['#000'],
+          shadowOffset: [jsvals.j8({pass: {
+          propertieValues: "{width: 0, height: -4}"
+        }})],
+          shadowOpacity: [jsvals.j8({pass: {
+          propertieValues: "0.1"
+        }})],
+          shadowRadius: [jsvals.j8({pass: {
+          propertieValues: "6px"
+        }})],
+        }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[
         (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
@@ -1403,150 +1547,6 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
           args,
         }}/>],
-
-            args,
-          }}/>
-        , 
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-stls.position({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "absolute"
-        }})] }}), 
-stls.bottom({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "0"
-        }})] }}), 
-stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.sizes.percent.100"
-        }})
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "40px"
-        }})] }}), 
-stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#fff"
-        }})] }}), 
-stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "row"
-        }})] }}), 
-stls.justifyContent({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "space-around"
-        }})] }}), 
-stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
-        }})] }}), stls.shadows({ pass: {
-          shadowColor: ['#000'],
-          shadowOffset: [jsvals.j8({pass: {
-          propertieValues: "{width: 0, height: -4}"
-        }})],
-          shadowOpacity: [jsvals.j8({pass: {
-          propertieValues: "0.1"
-        }})],
-          shadowRadius: [jsvals.j8({pass: {
-          propertieValues: "6px"
-        }})],
-        }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[{}],
-
-            styles:[
-        
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "70px"
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "70px"
-        }})] }}), 
-stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#fff"
-        }})] }}), 
-stls.marginTop({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "-20px"
-        }})] }}), 
-stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100px"
-        }})] }}), stls.shadows({ pass: {
-          shadowColor: ['#000'],
-          shadowOffset: [jsvals.j8({pass: {
-          propertieValues: "{width: 0, height: -4}"
-        }})],
-          shadowOpacity: [jsvals.j8({pass: {
-          propertieValues: "0.1"
-        }})],
-          shadowRadius: [jsvals.j8({pass: {
-          propertieValues: "6px"
-        }})],
-        }}), 
-stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
-        }})] }})],
-
-            variablePath:[ ],
-
-            expectedVal:[ ],
-
-            childrenItems:[(...args:any) => <Elements.Pressable3 pass={{
-          elementProperties: [{}],
-
-          styles: [
-stls.borderRadius({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100px"
-        }})] }}), 
-stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "56px"
-        }})] }}), 
-stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "56px"
-        }})] }}), 
-stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.colors.primaryColor"
-        }})
-        }})] }}), 
-stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "center"
-        }})] }})],
-
-          childrenItems: [(...args:any) => <Elements.SvgView1 pass={{
-      componentSvg: (Svg:any, SvgObj:any) => {
-        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (<Svg xmlns="http://www.w3.org/2000/svg" width={26} height={25} fill="red" viewBox="0 0 26 25" {...props} ><Path fill="#fff" d="M8.294 19.571c-1.5 0-2.714 1.197-2.714 2.673s1.215 2.673 2.714 2.673c1.499 0 2.714-1.197 2.714-2.673S9.793 19.57 8.294 19.57Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485s1.508.665 1.508 1.485c0 .82-.675 1.485-1.508 1.485ZM19.755 19.571c-1.5 0-2.715 1.197-2.715 2.673s1.216 2.673 2.715 2.673c1.499 0 2.714-1.197 2.714-2.673s-1.215-2.673-2.714-2.673Zm0 4.158a1.497 1.497 0 0 1-1.508-1.485c0-.82.675-1.485 1.508-1.485.832 0 1.508.665 1.508 1.485 0 .82-.676 1.485-1.508 1.485ZM25.877 3.98a.758.758 0 0 0-.483-.238L5.761 3.475 5.218 1.84A2.772 2.772 0 0 0 2.624 0H.604A.599.599 0 0 0 0 .594c0 .328.27.594.603.594h2.02a1.566 1.566 0 0 1 1.449 1.04l3.83 11.374-.302.683a2.813 2.813 0 0 0 .272 2.584 2.815 2.815 0 0 0 2.262 1.247h11.732a.599.599 0 0 0 .603-.594.599.599 0 0 0-.603-.594H10.134a1.543 1.543 0 0 1-1.267-.713 1.612 1.612 0 0 1-.15-1.425l.24-.535 12.698-1.307a3.3 3.3 0 0 0 2.865-2.494l1.448-5.97a.499.499 0 0 0-.091-.504Zm-2.533 6.206a2.041 2.041 0 0 1-1.84 1.575L8.957 13.037 6.153 4.662l18.488.267-1.297 5.256Z" /></Svg>)
-      },
-
-      svgOriginal: `
-        <svg></svg>
-      `,
-
-      altura: "25px",
-
-      largura: "25px",
-
-      preenchimento: [jsvals.j8({pass: {
-          propertieValues: "#fff"
-        }})],
-
-      args,
-    }}/>],
-
-          pressableFunctions: [()=>console.log("Você Clicou!")],
-
-          args,
-        }}/>],
-
-            args,
-          }}/>
-        ],
 
             args,
           }}/>
