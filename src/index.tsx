@@ -114,7 +114,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
             styles:[
         stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "220px"
+          propertieValues: "250px"
         }})] }}), 
         stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
@@ -380,7 +380,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})
         }})] }}), 
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "140px"
+          propertieValues: "170px"
         }})] }}), stls.flexDirection({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "row"
         }})] }})],
@@ -422,7 +422,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
       styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "140px"
+          propertieValues: "170px"
         }})] }}), 
 stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           path: jsvals.j8({pass: {
@@ -878,7 +878,8 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           propertieValues: "all.currProds"
         }})],childrenItems: [(...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            (...args:any) => props.ListHeaderComponent({pass: {
+            
+        (...args:any) => props.ListHeaderComponent({pass: {
           component: [
 
           (...args:any) => <Elements.DynView pass={{
@@ -893,6 +894,25 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           path: jsvals.j8({pass: {
           propertieValues: "all.sizes.percent.100"
         }})
+        }})] }})],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ]
+        }}), (...args:any) => props.ListFooterComponent({ pass: {
+          component: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "60px"
         }})] }})],
 
             variablePath:[ ],
