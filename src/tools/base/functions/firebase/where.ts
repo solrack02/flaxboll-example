@@ -34,6 +34,7 @@ export const where = async (props: Tprops) => {
   // ---------- set Init Firestore
   // -----------------------------
   if (!fbInit) return console.log(fbErrMsg1, { fbInit });
+  console.log({ fbInit });
   const fireInit: any = getFirestore(fbInit[0]);
 
   const arrConds = [];
@@ -67,3 +68,4 @@ export const where = async (props: Tprops) => {
 
   for (const currFunc of arrFuncs) currFunc(arrDocs, args);
 };
+
