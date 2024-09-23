@@ -1,5 +1,5 @@
 
-// export { firebase } from './firebase';
+export { firebase } from './firebase';
 
 export { funcGroup } from './funcGroup';
 
