@@ -113,7 +113,13 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [async (...args) =>
+        functions.firebase.where({ args, pass:{
+            fbInit: [''],
+            arrRefStrings: [''],
+            arrWhere: [[() => ({ field: 'xx', operator: '==', value: 'xx' })]],
+            arrFuncs: [() => {}],
+        }})],
 
           args,
         }}/>],
