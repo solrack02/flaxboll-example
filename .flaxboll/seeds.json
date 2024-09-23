@@ -19910,7 +19910,8 @@
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
-          "pt-br": "firestore where condition"
+          "pt-br": "firestore where condition",
+          "en": "firestore where condition",
         },
         "capsDescription": {
           "pt-br": "Usada para \"pegar\" documentos específicos de acordo com a instrução fornecida."
