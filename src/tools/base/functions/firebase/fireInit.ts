@@ -1,7 +1,7 @@
 
 // ---------- set Local Imports
  import { initializeApp } from 'firebase/app';
-console.log({FB_APP});
+console.log({ initializeApp });
 type Tprops = { args: any; pass: { fbConfig: any; arrFuncs: any[] } };
 
 export const fireInit = async (props: Tprops) => {
