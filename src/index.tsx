@@ -1418,7 +1418,12 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
       args,
     }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("sc2");
+        }
+        ],
 
           args,
         }}/>, 
