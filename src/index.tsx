@@ -115,8 +115,14 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           pressableFunctions: [async (...args) =>
         functions.firebase.where({ args, pass:{
-            fbInit: [''],
-            arrRefStrings: [''],
+            fbInit: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.fbInit"
+        }})
+        }})],
+            arrRefStrings: [jsvals.j8({pass: {
+          propertieValues: "users"
+        }})],
             arrWhere: [[() => ({ field: 'xx', operator: '==', value: 'xx' })]],
             arrFuncs: [() => {}],
         }})],
