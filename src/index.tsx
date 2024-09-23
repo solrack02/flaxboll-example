@@ -123,7 +123,18 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
             arrRefStrings: [jsvals.j8({pass: {
           propertieValues: "users"
         }})],
-            arrWhere: [[() => ({ field: 'xx', operator: '==', value: 'xx' })]],
+            arrWhere: [(...args) =>
+        functions.firebase.whereConds({ args, pass:{
+          arrStrings: [
+        jsvals.j8({pass: {
+          propertieValues: "userEmail"
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: "=="
+        }}), jsvals.j8({pass: {
+          propertieValues: "sdd"
+        }})],
+        }})],
             arrFuncs: [() => {}],
         }})],
 
