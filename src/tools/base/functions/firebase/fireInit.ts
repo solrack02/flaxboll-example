@@ -1,6 +1,6 @@
 
 // ---------- set Local Imports
- import * as FB_APP from 'firebase/app';
+ import * as FB_APP from 'firebase/app/dist';
 
 type Tprops = { args: any; pass: { fbConfig: any; arrFuncs: any[] } };
 
