@@ -41,7 +41,7 @@ export const where = async (props: Tprops) => {
   if (!fbInit) return console.log(fbErrMsg1, { fbInit });
   console.log({ fbInit: fbInit[0] });
 
-  const fireInit: any = getFirestore(fbInit[0]);
+  const fireInit: any = getFirestore(fbInit);
 
   console.log({ fireInit });
 
