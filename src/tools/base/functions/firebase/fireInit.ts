@@ -9,6 +9,7 @@ export const fireInit = async (props: Tprops) => {
   // ---------- set Props
   const { args, pass } = props;
   const { fbConfig, arrFuncs } = pass;
+console.log({ fbConfig });
 
   // ---------- set Caps Inputs
 
