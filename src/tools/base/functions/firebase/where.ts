@@ -3,8 +3,8 @@
 // import * as firestore from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js';
 import { initializeApp } from 'firebase/app';
 // import firebase from 'firebase/app';
-import * as firestore from 'firebase/firestore';
-// import firestore from 'firebase/firestore';
+// import * as firestore from 'firebase/firestore';
+import firestore from 'firebase/firestore';
 // import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
 // type Tprops = {
