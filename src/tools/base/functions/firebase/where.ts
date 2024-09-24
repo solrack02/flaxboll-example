@@ -31,7 +31,7 @@ export const where = async () => {
   // console.log('where', initializeApp);
   console.log('where', firestore);
   //   const { initializeApp } = firebase;
-  //   const { getFirestore, collection, getDocs } = firestore;
+  const { getFirestore, collection, getDocs } = firestore;
 
   //   console.log('Script 2');
   //   console.log(initializeApp);
@@ -50,10 +50,10 @@ export const where = async () => {
   console.log({ initFb });
 
   //   // Inicializar o Firestore
-  // const db = getFirestore(initFb);
-  // console.log({ db });
+  const db = getFirestore(initFb);
+  console.log({ db });
 
-  // const refColl = collection(db, 'users');
-  // console.log({ refColl });
+  const refColl = collection(db, 'users');
+  console.log({ refColl });
 };
 
