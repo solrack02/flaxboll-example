@@ -1,6 +1,6 @@
 
-import * as firebase from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js';
-import * as firestore from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js';
+import * as firebase from 'firebase/app';
+import * as firestore from 'firebase/firestore';
 
 type Tprops = {
   args: any;
