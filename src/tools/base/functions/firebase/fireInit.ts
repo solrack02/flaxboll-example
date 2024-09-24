@@ -1,7 +1,7 @@
 
 // ---------- set Local Imports
 // import { initializeApp } from 'firebase/app';
-import * as firebase from 'firebase/app';
+import { firebase } from 'firebase/app';
 // console.log({ initializeApp });
 
 type Tprops = { args: any; pass: { fbConfig: any; arrFuncs: any[] } };
