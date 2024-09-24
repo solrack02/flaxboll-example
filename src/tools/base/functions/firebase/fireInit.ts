@@ -1,7 +1,8 @@
 
 // ---------- set Local Imports
-import { initializeApp } from 'firebase/app';
-console.log({ initializeApp });
+// import { initializeApp } from 'firebase/app';
+import * as firebase  from 'firebase/app';
+// console.log({ initializeApp });
 
 type Tprops = { args: any; pass: { fbConfig: any; arrFuncs: any[] } };
 
@@ -14,7 +15,7 @@ export const fireInit = async (props: Tprops) => {
 
   if (typeof fbConfig === 'object') {
     // ---------- set FB Init on a Variable
-    const fbInit = initializeApp(fbConfig, 'secondary');
+    const fbInit = firebase.initializeApp(fbConfig, 'secondary');
     console.log({ fbInit });
     for (const currFunc of arrFuncs) {
       await currFunc(fbInit, args);
