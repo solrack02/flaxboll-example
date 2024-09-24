@@ -21,8 +21,13 @@ export const where = async (props: Tprops) => {
   const { args, pass } = props;
   const { fbInit, arrRefStrings, arrWhere, arrFuncs } = pass;
 
+  console.log({ FB_FIRE });
+
   // ---------- set Local Imports
   const { getFirestore, getDocs, collection, where, query } = FB_FIRE;
+
+  console.log({ getFirestore });
+  console.log({ where });
 
   // ---------- set Caps Inputs
 
@@ -37,6 +42,8 @@ export const where = async (props: Tprops) => {
   console.log({ fbInit: fbInit[0] });
 
   const fireInit: any = getFirestore(fbInit[0]);
+
+  console.log({ fireInit });
 
   const arrConds = [];
   const newArrWh = () => {
