@@ -2,7 +2,8 @@
 // import * as firebase from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js';
 // import * as firestore from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js';
 import { initializeApp } from 'firebase/app';
-import firestore from 'firebase/firestore';
+// import firebase from 'firebase/app';
+// import firestore from 'firebase/firestore';
 
 // type Tprops = {
 //   args: any;
