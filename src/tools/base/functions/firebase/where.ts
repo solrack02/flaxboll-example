@@ -4,7 +4,7 @@
 import { initializeApp } from 'firebase/app';
 // import firebase from 'firebase/app';
 // import firestore from 'firebase/firestore';
-import { getFirestore, collection, getDocs } from 'firebase/firestore';
+// import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
 // type Tprops = {
 //   args: any;
@@ -45,10 +45,10 @@ export const where = async () => {
   console.log({ initFb });
 
   //   // Inicializar o Firestore
-  const db = getFirestore(initFb);
-  console.log({ db });
+  // const db = getFirestore(initFb);
+  // console.log({ db });
 
-  const refColl = collection(db, 'users');
-  console.log({ refColl });
+  // const refColl = collection(db, 'users');
+  // console.log({ refColl });
 };
 
