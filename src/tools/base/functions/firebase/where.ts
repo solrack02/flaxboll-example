@@ -34,7 +34,7 @@ export const where = async (props: Tprops) => {
   // ---------- set Init Firestore
   // -----------------------------
   if (!fbInit) return console.log(fbErrMsg1, { fbInit });
-  console.log({ fbInit: fbInit[0] });
+  console.log({ fbInit: fbInit[0]() });
 
   const fireInit: any = getFirestore(fbInit[0]);
 
