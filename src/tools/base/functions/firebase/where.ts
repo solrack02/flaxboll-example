@@ -3,8 +3,8 @@
 // import * as firestore from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js';
 import { initializeApp } from 'firebase/app';
 // import firebase from 'firebase/app';
-// import * as firestore from 'firebase/firestore';
-import firestore from 'firebase/firestore';
+import * as firestore from 'firebase/firestore';
+// import firestore from 'firebase/firestore';
 // import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
 // type Tprops = {
@@ -16,6 +16,9 @@ import firestore from 'firebase/firestore';
 //     arrFuncs: any[];
 //   };
 // };
+
+// Build failed with 1 error:
+// teste-firebase:https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js:1:126: ERROR: [plugin: Flax Web Plugin] Failed to construct 'URL': Invalid base URL
 
 // export const css1 =
 //   'color: green; background-color: black; font-size: 11px; padding: 2px 6px; border-radius: 3px';
