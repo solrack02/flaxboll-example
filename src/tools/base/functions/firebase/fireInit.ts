@@ -1,27 +1,27 @@
 
 // ---------- set Local Imports
 // import { initializeApp } from 'firebase/app';
-import * as firebase from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js';
+// import * as firebase from 'firebase/app';
 // console.log({ initializeApp });
 
-type Tprops = { args: any; pass: { fbConfig: any; arrFuncs: any[] } };
+// type Tprops = { args: any; pass: { fbConfig: any; arrFuncs: any[] } };
 
-export const fireInit = async (props: Tprops) => {
-  // ---------- set Props
-  const { args, pass } = props;
-  const { fbConfig, arrFuncs } = pass;
-
-  // ---------- set Caps Inputs
-
-  if (typeof fbConfig === 'object') {
-    // ---------- set FB Init on a Variable
-    const fbInit = firebase.initializeApp(fbConfig, 'secondary');
-    console.log({ fbInit });
-    for (const currFunc of arrFuncs) {
-      await currFunc(fbInit, args);
-    }
-  } else {
-    console.log('fbConfig precisa ser um objeto', { fbConfig });
-  }
+// export const fireInit = async (props: Tprops) => {
+export const fireInit = async () => {
+  console.log('fireInit');
+  //   // ---------- set Props
+  //   const { args, pass } = props;
+  //   const { fbConfig, arrFuncs } = pass;
+  //   // ---------- set Caps Inputs
+  //   if (typeof fbConfig === 'object') {
+  //     // ---------- set FB Init on a Variable
+  //     const fbInit = firebase.initializeApp(fbConfig, 'secondary');
+  //     console.log({ fbInit });
+  //     for (const currFunc of arrFuncs) {
+  //       await currFunc(fbInit, args);
+  //     }
+  //   } else {
+  //     console.log('fbConfig precisa ser um objeto', { fbConfig });
+  //   }
 };
 
