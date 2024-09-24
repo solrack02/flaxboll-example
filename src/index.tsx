@@ -141,7 +141,11 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           args,
         }}/>],
 
-          startFunctions:[()=>{}],
+          startFunctions:[async (...args) =>
+        functions.firebase.fireInit({ args, pass:{
+          fbConfig: 'noPath',
+          arrFuncs: [()=>{}]
+        }})],
 
           args,
         }}/>, 
