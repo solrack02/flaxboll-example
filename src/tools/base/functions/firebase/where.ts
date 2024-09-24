@@ -1,7 +1,7 @@
 
 // import * as firebase from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js';
 // import * as firestore from 'https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js';
-import firebase from 'firebase/app';
+import { initializeApp } from 'firebase/app';
 import firestore from 'firebase/firestore';
 
 // type Tprops = {
@@ -21,7 +21,8 @@ import firestore from 'firebase/firestore';
 
 // export const where = async (props: Tprops) => {
 export const where = async () => {
-  console.log('where', firebase, firestore);
+  // console.log('where', firebase, firestore);
+  console.log('where', initializeApp);
   //   const { initializeApp } = firebase;
   //   const { getFirestore, collection, getDocs } = firestore;
 
