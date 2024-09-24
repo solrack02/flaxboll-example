@@ -55,5 +55,11 @@ export const where = async () => {
 
   const refColl = collection(db, 'users');
   console.log({ refColl });
+
+  // Obtendo documentos da coleção
+  const querySnapshot = await getDocs(refColl);
+  querySnapshot.forEach(doc => {
+    console.log(doc.data());
+  });
 };
 
