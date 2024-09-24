@@ -14,18 +14,8 @@ export const fireInit = async (props: Tprops) => {
 
   if (typeof fbConfig === 'object') {
     // ---------- set FB Init on a Variable
-    const fbConfig2 = {
-      apiKey: 'AIzaSyDjAfyEUADq7EaRyFWlGFjP1Eoox9LJHgI',
-      authDomain: 'devs-tests-95208.firebaseapp.com',
-      projectId: 'devs-tests-95208',
-      storageBucket: 'devs-tests-95208.appspot.com',
-      messagingSenderId: '750912250366',
-      appId: '1:750912250366:web:4629eac789a718a74220af',
-    };
-
-    const fbInit = initializeApp(fbConfig2);
+    const fbInit = initializeApp(fbConfig, 'secondary');
     console.log({ fbInit });
-    
     for (const currFunc of arrFuncs) {
       await currFunc(fbInit, args);
     }
