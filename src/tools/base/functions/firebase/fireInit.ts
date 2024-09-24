@@ -23,7 +23,7 @@ export const fireInit = async (props: Tprops) => {
       appId: '1:750912250366:web:4629eac789a718a74220af',
     };
 
-    const fbInit = initializeApp(fbConfig2, 'secondary');
+    const fbInit = initializeApp(fbConfig2);
     console.log({ fbInit });
     
     for (const currFunc of arrFuncs) {
