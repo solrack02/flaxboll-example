@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'sc1';
+          const currRoute = 'sc2';
 
           let args: any = [];
 
@@ -2283,26 +2283,7 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
           // console.log(initObj);
 
           const arrInitFuncs = [
-            async (...args) =>
-        functions.firebase.fireInit({ args, pass:{
-          fbConfig: jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.fbConfig"
-        }})
-        }}),
-          arrFuncs: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: [jsvals.j8({pass: {
-          propertieValues: "all.fbInit"
-        }})],
-          value: jsvals.argReader({pass: {
-          argPath: jsvals.j8({pass: {
-          propertieValues: "#0"
-        }}),
-          args
-        }})
-        }})]
-        }})
+            ()=>{}
           ];
 
           export const useRoutes = create(() => ({ currRoute }));
