@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'sc1';
+          const currRoute = 'sc3';
 
           let args: any = [];
 
@@ -164,6 +164,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
         }}/>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc1",
@@ -1991,6 +1992,135 @@ stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
         ],
 
           startFunctions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"sc3",
+
+          styles:[
+stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.colors.primaryColor"
+        }})
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }}), stls.width({ pass: { arrayValue: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.sizes.percent.100"
+        }})
+        }})] }})],
+
+          screenElements:[
+        (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [()=><></>],
+
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("sc1");
+        }
+        ],
+
+          args,
+        }}/>, (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
+
+          childrenItems: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "where"
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+          pressableFunctions: [async (...args) =>
+        functions.firebase.where({ args, pass:{
+            fbInit: [jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.fbInit"
+        }})
+        }})],
+            arrRefStrings: [jsvals.j8({pass: {
+          propertieValues: "users"
+        }})],
+            arrWhere: [(...args) =>
+        functions.firebase.whereConds({ args, pass:{
+          arrStrings: [
+        jsvals.j8({pass: {
+          propertieValues: "userEmail"
+        }}), 
+        jsvals.j8({pass: {
+          propertieValues: "=="
+        }}), jsvals.j8({pass: {
+          propertieValues: "sdd"
+        }})],
+        }})],
+            arrFuncs: [() => {}],
+        }})],
+
+          args,
+        }}/>],
+
+          startFunctions:[async (...args) =>
+        functions.firebase.fireInit({ args, pass:{
+          fbConfig: jsvals.varReader({pass: {
+          path: jsvals.j8({pass: {
+          propertieValues: "all.fbConfig"
+        }})
+        }}),
+          arrFuncs: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [jsvals.j8({pass: {
+          propertieValues: "all.fbInit"
+        }})],
+          value: jsvals.argReader({pass: {
+          argPath: jsvals.j8({pass: {
+          propertieValues: "#0"
+        }}),
+          args
+        }})
+        }})]
+        }})],
 
           args,
         }}/>
